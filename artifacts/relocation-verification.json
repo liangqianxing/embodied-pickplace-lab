@@ -1,0 +1,42 @@
+{
+  "scope": "Relocated source/data/weights and isolated import resolution; dependencies reused from local environments. NOT a fresh dependency installation, cross-platform test or independent replication.",
+  "archive_sha256": "833cadb56adf538c6df5ad3664ad3d5cd61de6ba1e9f767726cd36894a7b03a8",
+  "checks": [
+    {
+      "check": "source_resolution",
+      "returncode": 0,
+      "stdout": "src/pickplace/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "check": "relocated_manifest",
+      "returncode": 0,
+      "stdout": "Verified all 798 manifest entries.\n",
+      "stderr": ""
+    },
+    {
+      "check": "original_and_filter_tests",
+      "returncode": 0,
+      "stdout": "..........................................                               [100%]\n=============================== warnings summary ===============================\ntests/test_env.py::test_gymnasium_contract\n  <original-dependency-root>/.venv/lib/python3.11/site-packages/gymnasium/utils/env_checker.py:372: UserWarning: \u001b[33mWARN: A Box observation space minimum value is -infinity. This is probably too low.\u001b[0m\n    logger.warn(\n\ntests/test_env.py::test_gymnasium_contract\n  <original-dependency-root>/.venv/lib/python3.11/site-packages/gymnasium/utils/env_checker.py:376: UserWarning: \u001b[33mWARN: A Box observation space maximum value is infinity. This is probably too high.\u001b[0m\n    logger.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n42 passed, 2 warnings in 6.63s\n",
+      "stderr": ""
+    },
+    {
+      "check": "original_artifacts",
+      "returncode": 0,
+      "stdout": "Verified 256 training + 32 validation episodes, 3 checkpoints, 1000 evaluation trials and 14 replay records.\n",
+      "stderr": ""
+    },
+    {
+      "check": "research_artifacts",
+      "returncode": 0,
+      "stdout": "Verified 15,000 trials, 30 summary cells, 271 replay records and 17 frozen sources.\n",
+      "stderr": ""
+    },
+    {
+      "check": "panda_tests",
+      "returncode": 0,
+      "stdout": ".....                                                                    [100%]\n5 passed in 4.06s\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "configuration": {
+    "name": "coordinate-noise-study-v1",
+    "question": "Can an explicit planar-translation-invariant representation and consistent observation-noise augmentation improve low-data closed-loop robustness?",
+    "training_seeds": [
+      17,
+      29,
+      43,
+      71,
+      97
+    ],
+    "epochs": 150,
+    "batch_size": 256,
+    "validation_selection": "minimum clean held-out episode validation loss",
+    "models": [
+      {
+        "name": "raw32",
+        "episodes": 32,
+        "relative": false,
+        "augment": false
+      },
+      {
+        "name": "relative32",
+        "episodes": 32,
+        "relative": true,
+        "augment": false
+      },
+      {
+        "name": "noise32",
+        "episodes": 32,
+        "relative": false,
+        "augment": true
+      },
+      {
+        "name": "relative_noise32",
+        "episodes": 32,
+        "relative": true,
+        "augment": true
+      },
+      {
+        "name": "raw256",
+        "episodes": 256,
+        "relative": false,
+        "augment": false
+      }
+    ],
+    "augmentation": {
+      "grip_std": 0.001,
+      "cube_std": 0.003,
+      "goal_std": 0.001
+    },
+    "conditions": [
+      {
+        "name": "id",
+        "distribution": "id"
+      },
+      {
+        "name": "position",
+        "distribution": "ood"
+      },
+      {
+        "name": "sensor_3mm",
+        "distribution": "id",
+        "grip_std": 0.001,
+        "cube_std": 0.003,
+        "goal_std": 0.001
+      },
+      {
+        "name": "delay_50ms",
+        "distribution": "id",
+        "delay_steps": 1
+      },
+      {
+        "name": "dynamics",
+        "distribution": "id",
+        "mass_scale": 2.0,
+        "friction_scale": 0.55
+      },
+      {
+        "name": "combined",
+        "distribution": "ood",
+        "grip_std": 0.001,
+        "cube_std": 0.003,
+        "goal_std": 0.001,
+        "delay_steps": 1,
+        "mass_scale": 2.0,
+        "friction_scale": 0.55
+      }
+    ],
+    "test_seed_start": 50000,
+    "test_episodes": 100,
+    "primary_endpoint": "unweighted mean success over position, sensor_3mm, delay_50ms, dynamics, combined",
+    "primary_comparison": [
+      "relative_noise32",
+      "raw32"
+    ],
+    "bootstrap_repetitions": 5000,
+    "bootstrap_seed": 20261015,
+    "limitations": [
+      "custom Cartesian task, not a standard benchmark",
+      "state observations only",
+      "five seeds vary both dataset subset and optimization",
+      "no claims of architectural novelty",
+      "noise levels are known at design time, so this is not unknown-noise generalization",
+      "no external evaluation or public impact established"
+    ]
+  },
+  "source_sha256": {
+    "src/pickplace/__init__.py": "14c62d50659139526990444a9ac718357eeb08dcf7b1a03ee28f685fdd28f464",
+    "src/pickplace/cli.py": "7f0eb4597d5689bb8a6dd593c166b1583a5606959a7144133a9d479361b79cc6",
+    "src/pickplace/data.py": "9b705032fd34a22b98ebdbab485c71a8869deb7b3f1ddd24c1bd9a3f92eec650",
+    "src/pickplace/env.py": "df2dac95c8edde043aeba200369874bee4bc87617adddb1f788cce1ab9744f38",
+    "src/pickplace/evaluate.py": "020310d5126bcf41409fedfa053ba1b2cce96713728459c0d88ad1f5beeb4730",
+    "src/pickplace/expert.py": "95ec971282d940f71fe52e0395b4fa8ae345d5adda092a805bfb38b625fbdc10",
+    "src/pickplace/policy.py": "6d3b97fe81c21fe3b4cd1933d5e6fabf52ba770c0f2e515095000462b03993cc",
+    "src/pickplace/report.py": "b82f8272520f19a65f8d3be245f2db44bbab7b7a66471d8e3eaf61bc66e476e3",
+    "src/pickplace/robustness.py": "4db12c28d55b7866a8a6c8264c687b971d2887cdda07303d2376151d4281f283",
+    "src/pickplace/server.py": "e1e95482dc2a55774268259f174116df4fe9d5bf2b94597589dc5c77b1185def",
+    "src/pickplace/study.py": "9f245791a1e17e86428a961de462a9967f3024edbc21f66e6e3654005f99f841",
+    "src/pickplace/study_analysis.py": "90a333023af5b4e831213be84713497040bb8cea5196d77054171094c5b73ab2",
+    "src/pickplace/study_policy.py": "6ac71ee926c2b70647f18b0144e559e9ec43b693dc3c6eb620738eb852409a29",
+    "src/pickplace/train.py": "e8ba84f2a089be93dcd06324900f0c9f21788e0b62ddd2cc92611dec8f747a8d",
+    "src/pickplace/assets/scene.xml": "22521dd863fa810088831cf3374a24269e6f0092e0bc7493858c1aba2b10a65c",
+    "configs/research_v1.json": "acc4632b1d0dcd99bbf33961b75441bb1b76d05411ef5f499e7d606d5ecad672",
+    "docs/RESEARCH_PROTOCOL.md": "ad2226a5031fbfdeeccb7be9bc9c6951d00675084612f714295bd52b11a4e03a"
+  },
+  "dataset_sha256": "87fa71f5ab36fa656bafc85576d3eabb266e98872935b5fb3714b724a8acda8d",
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.4.6",
+    "mujoco": "3.16.0",
+    "gymnasium": "1.4.0"
+  },
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "frozen_at": "2026-10-15T15:16:54.099384+08:00"
+}

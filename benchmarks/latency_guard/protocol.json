@@ -1,0 +1,21 @@
+{
+  "name": "latency-guard-v1",
+  "status": "prospective follow-up to an observed v1 failure; not an original preregistered hypothesis",
+  "question": "Can simple execution-time temporal filters reduce delay failures of a frozen BC256 policy without retraining?",
+  "training_seeds": [17, 29, 43, 71, 97],
+  "base_checkpoint_directory": "artifacts/study/v1/checkpoints",
+  "base_model": "raw256",
+  "variants": ["identity", "gain_half", "ema_half"],
+  "conditions": [
+    {"name": "clean", "distribution": "id", "delay_steps": 0},
+    {"name": "delay_50ms", "distribution": "id", "delay_steps": 1},
+    {"name": "delay_100ms", "distribution": "id", "delay_steps": 2}
+  ],
+  "scenario_start": 80000,
+  "episodes": 100,
+  "primary_contrast": "ema_half minus identity under delay_50ms",
+  "secondary_constraints": "Report clean-condition difference and successful episode length; do not hide loss of speed or clean success.",
+  "coefficient_selection": "0.5 fixed as a simple dyadic baseline before new test results; no coefficient sweep or post-test tuning",
+  "selection_caveat": "BC256 was chosen after observing its latency sensitivity in study v1; new scenario seeds prevent reusing the same evaluation cases but do not erase model-family selection bias.",
+  "claims": "Engineering baseline and controlled intervention, not a novel smoothing algorithm or real-robot result."
+}

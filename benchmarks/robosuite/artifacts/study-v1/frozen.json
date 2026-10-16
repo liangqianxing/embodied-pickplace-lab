@@ -1,0 +1,101 @@
+{
+  "config": {
+    "name": "panda-lift-latency-v1",
+    "task": "robosuite 1.5.2 Lift with Panda and default OSC_POSE controller",
+    "mujoco": "3.3.7",
+    "observation": "49-dimensional state vector; no images, task phase or timer",
+    "action": "learn XYZ in [-0.5,0.5] and binary gripper; rotational delta fixed zero",
+    "horizon": 200,
+    "control_hz": 20,
+    "termination": "stop after eight consecutive official-success steps or 200 controls",
+    "expert_train_episodes": 128,
+    "expert_validation_episodes": 16,
+    "train_scenario_start": 92000,
+    "validation_scenario_start": 93000,
+    "training_seeds": [
+      17,
+      29,
+      43,
+      71,
+      97
+    ],
+    "epochs": 150,
+    "validation_selection": "minimum held-out demonstration action loss",
+    "test_scenario_start": 95000,
+    "test_episodes": 50,
+    "conditions": [
+      {
+        "name": "clean",
+        "delay_steps": 0,
+        "filter": "identity"
+      },
+      {
+        "name": "clean_ema",
+        "delay_steps": 0,
+        "filter": "ema_half"
+      },
+      {
+        "name": "delay50",
+        "delay_steps": 1,
+        "filter": "identity"
+      },
+      {
+        "name": "delay50_ema",
+        "delay_steps": 1,
+        "filter": "ema_half"
+      },
+      {
+        "name": "delay100",
+        "delay_steps": 2,
+        "filter": "identity"
+      },
+      {
+        "name": "delay100_ema",
+        "delay_steps": 2,
+        "filter": "ema_half"
+      }
+    ],
+    "baselines": [
+      "expert",
+      "random"
+    ],
+    "baseline_condition": {
+      "delay_steps": 0,
+      "filter": "identity"
+    },
+    "primary_metric": "official success ever observed at a control boundary within the horizon",
+    "secondary_metric": "eight consecutive successful control boundaries (0.4 seconds)",
+    "primary_comparison": "delay50_ema minus delay50 official success, paired model/scenario",
+    "causal_scope": "same learned checkpoints across execution interventions; no claim that a positive result will transfer from the custom task",
+    "bootstrap_repetitions": 5000,
+    "bootstrap_seed": 20261015,
+    "limitations": [
+      "A standard task implemented by an external library, not independent external replication",
+      "200-control horizon, early hold stop, no image input, restricted learned rotation; not a leaderboard-equivalent protocol",
+      "Training seeds vary initialization and shuffling, not the fixed 128-episode expert dataset",
+      "EMA coefficient 0.5 transferred unchanged from the custom task; no Panda test tuning",
+      "Only one official manipulation task and five training seeds; no real-robot or safety claim",
+      "Robosuite warnings about optional GR1 IK/extra robot models are not needed by Panda OSC_POSE"
+    ]
+  },
+  "source_sha256": {
+    "smoke.py": "529bbffd98aeabfe2857104584c2ca5ff4d0d731343bb45d2c1fb9a7e382d065",
+    "development.py": "7854b9dd3d5614a870679c663cdf4980da30436565d91f21685c5ec3ac5b7abd",
+    "learning.py": "4b38f8947f54c15bf98b8221bf6f9f33c9a385257c471e0b5622c00e24633419",
+    "evaluate.py": "811372519c39b14be0d39ea23f2420142a2acdece91a544ec62c69bb1cb537ff",
+    "study.py": "3500798f71fe6528253b6c8a7cfb7695899a78ab65c7f72de838840e24a19bcf",
+    "protocol.json": "4cadcb17e05a9f5d28af2d09729d3b9b87ae3393899e1d730951049c32a663a2",
+    "requirements-lock.txt": "09fe3b207590dced7b8945cc7a521f96487ead5359c1c5d2ced51bc54aea8841"
+  },
+  "versions": {
+    "robosuite": "1.5.2",
+    "mujoco": "3.3.7",
+    "numpy": "1.26.4",
+    "torch": "2.14.1",
+    "numba": "0.68.0",
+    "scipy": "1.17.1"
+  },
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "frozen_at": "2026-10-15T22:06:24.031079+08:00"
+}

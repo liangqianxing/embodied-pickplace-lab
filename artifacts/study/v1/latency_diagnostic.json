@@ -1,0 +1,15 @@
+{
+  "status": "post-hoc diagnostic, not a prespecified causal test",
+  "model": "raw256",
+  "training_seed": 17,
+  "scenario_seed": 50005,
+  "selection": "first failed latency trial of first configured training seed",
+  "clean_success": true,
+  "clean_steps": 61,
+  "delayed_success": false,
+  "delayed_steps": 220,
+  "last_40_z_command_sign_flip_rate": 1.0,
+  "latency_total_failures": 252,
+  "latency_release_or_settle_failures": 229,
+  "caution": "Final-state diagnostic categories are not causes. Oscillation is demonstrated for this selected case, not proved for all failures."
+}

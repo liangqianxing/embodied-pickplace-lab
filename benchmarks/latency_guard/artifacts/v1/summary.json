@@ -1,0 +1,188 @@
+{
+  "frozen_sha256": "9809c3232a7fd7b5be87f45f48534fd8511c268754611c5dcd3b57fc63f10a4f",
+  "total_trials": 4500,
+  "rows": [
+    {
+      "variant": "identity",
+      "condition": "clean",
+      "mean": 1.0,
+      "sd": 0.0,
+      "seed_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_successful_steps": 59.416,
+      "mean_all_steps": 59.416,
+      "bootstrap_95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "identity",
+      "condition": "delay_50ms",
+      "mean": 0.5599999999999999,
+      "sd": 0.11895377253370319,
+      "seed_rates": [
+        0.53,
+        0.58,
+        0.74,
+        0.41,
+        0.54
+      ],
+      "mean_successful_steps": 74.17857142857143,
+      "mean_all_steps": 138.34,
+      "bootstrap_95": [
+        0.448,
+        0.674
+      ]
+    },
+    {
+      "variant": "identity",
+      "condition": "delay_100ms",
+      "mean": 0.524,
+      "sd": 0.2991320778519081,
+      "seed_rates": [
+        0.29,
+        0.77,
+        0.91,
+        0.24,
+        0.41
+      ],
+      "mean_successful_steps": 114.84351145038168,
+      "mean_all_steps": 164.812,
+      "bootstrap_95": [
+        0.296,
+        0.7660499999999992
+      ]
+    },
+    {
+      "variant": "gain_half",
+      "condition": "clean",
+      "mean": 0.366,
+      "sd": 0.47505789120906095,
+      "seed_rates": [
+        0.78,
+        0.0,
+        0.98,
+        0.01,
+        0.06
+      ],
+      "mean_successful_steps": 88.93442622950819,
+      "mean_all_steps": 172.03,
+      "bootstrap_95": [
+        0.016,
+        0.744
+      ]
+    },
+    {
+      "variant": "gain_half",
+      "condition": "delay_50ms",
+      "mean": 0.8400000000000001,
+      "sd": 0.10173494974687904,
+      "seed_rates": [
+        0.92,
+        0.71,
+        0.96,
+        0.78,
+        0.83
+      ],
+      "mean_successful_steps": 93.82142857142857,
+      "mean_all_steps": 114.01,
+      "bootstrap_95": [
+        0.748,
+        0.922
+      ]
+    },
+    {
+      "variant": "gain_half",
+      "condition": "delay_100ms",
+      "mean": 0.8859999999999999,
+      "sd": 0.06730527468185533,
+      "seed_rates": [
+        0.89,
+        0.88,
+        0.98,
+        0.79,
+        0.89
+      ],
+      "mean_successful_steps": 111.09706546275395,
+      "mean_all_steps": 123.512,
+      "bootstrap_95": [
+        0.82,
+        0.946
+      ]
+    },
+    {
+      "variant": "ema_half",
+      "condition": "clean",
+      "mean": 0.9960000000000001,
+      "sd": 0.008944271909999166,
+      "seed_rates": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.98
+      ],
+      "mean_successful_steps": 68.12650602409639,
+      "mean_all_steps": 68.734,
+      "bootstrap_95": [
+        0.982,
+        1.0
+      ]
+    },
+    {
+      "variant": "ema_half",
+      "condition": "delay_50ms",
+      "mean": 0.866,
+      "sd": 0.14724129855444767,
+      "seed_rates": [
+        0.88,
+        1.0,
+        0.99,
+        0.82,
+        0.64
+      ],
+      "mean_successful_steps": 82.62586605080831,
+      "mean_all_steps": 101.034,
+      "bootstrap_95": [
+        0.736,
+        0.972
+      ]
+    },
+    {
+      "variant": "ema_half",
+      "condition": "delay_100ms",
+      "mean": 0.40599999999999997,
+      "sd": 0.24480604567698078,
+      "seed_rates": [
+        0.27,
+        0.76,
+        0.53,
+        0.13,
+        0.34
+      ],
+      "mean_successful_steps": 111.74384236453201,
+      "mean_all_steps": 176.048,
+      "bootstrap_95": [
+        0.222,
+        0.6020499999999992
+      ]
+    }
+  ],
+  "primary_mean_difference": 0.306,
+  "primary_bootstrap_95": [
+    0.17,
+    0.426
+  ],
+  "clean_mean_difference": -0.004,
+  "clean_bootstrap_95": [
+    -0.018,
+    0.0
+  ],
+  "caution": "Five training/data-subset seeds; exploratory interval. Post-v1 model-family selection. No algorithm novelty or hardware claim."
+}

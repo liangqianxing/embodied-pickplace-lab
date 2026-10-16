@@ -1,0 +1,497 @@
+[
+  {
+    "path": "replays/bc-17-clean-95000.json",
+    "sha256": "28e45d1642fa8b43b077fedec4a7be5be6b98579756b16e44689f0269133d943",
+    "training_seed": 17,
+    "condition": "clean",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-clean_ema-95002.json",
+    "sha256": "6859c7c0b20e2241b4a4449c875d8ccde35861d41a02d53d5f1003af844621b4",
+    "training_seed": 17,
+    "condition": "clean_ema",
+    "scenario_seed": 95002,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-clean_ema-95000.json",
+    "sha256": "0ac5cfb577f06f2660c3a29f66b06adc3dbda9627093b70d0745f1c876b244b4",
+    "training_seed": 17,
+    "condition": "clean_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-17-delay50-95001.json",
+    "sha256": "c59f8ae7033b481937934088d7a5696c87c872d8169105dc60797269be0fa67a",
+    "training_seed": 17,
+    "condition": "delay50",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-delay50-95000.json",
+    "sha256": "cd2d7e658564ef5b1ca89bd9cbcff0c0934a4d8d380ff26d6a4be4bd5018d053",
+    "training_seed": 17,
+    "condition": "delay50",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-17-delay50_ema-95005.json",
+    "sha256": "0ae7a569f7c1ad7bbc7b54db4702ee3af74e6c0995413e5c25ba2524cd1d4602",
+    "training_seed": 17,
+    "condition": "delay50_ema",
+    "scenario_seed": 95005,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-delay50_ema-95000.json",
+    "sha256": "d019de0fe8bf336997b436723cc2d6864ddf1ee124224264aa1ef8cfd10ec4d9",
+    "training_seed": 17,
+    "condition": "delay50_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-17-delay100-95005.json",
+    "sha256": "bc4484fb68de0a81cbd127d396a65dc4583baff78c63889cee764283d5448dd1",
+    "training_seed": 17,
+    "condition": "delay100",
+    "scenario_seed": 95005,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-delay100-95000.json",
+    "sha256": "20425883942d98184f4311a5b75a879a103b7802ce46cee00d9cb19ad9a1b5ac",
+    "training_seed": 17,
+    "condition": "delay100",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-17-delay100_ema-95000.json",
+    "sha256": "11c521ec97a869fb0c9635d3c9a671dd709ca3c8bbd26c9968976932affd95d6",
+    "training_seed": 17,
+    "condition": "delay100_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-17-delay100_ema-95002.json",
+    "sha256": "c1528363ff9f513b1f5f2d5d521c099303e2e192ed2fdeb4a5c79a1e4e9d03d6",
+    "training_seed": 17,
+    "condition": "delay100_ema",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-29-clean-95000.json",
+    "sha256": "fbb87677b53f93ea46e39967ea901588a03286e536cd974390e3fb3393ace97b",
+    "training_seed": 29,
+    "condition": "clean",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-clean_ema-95000.json",
+    "sha256": "1d4b98ac8cfcddd7bb5611c63a8c24844da99b8c49c4b636ea2140c03cb8d971",
+    "training_seed": 29,
+    "condition": "clean_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-clean_ema-95002.json",
+    "sha256": "960a81d0ae72ffb9f24bbfd1db87b1ec7b7eb034b23edae30e22f7ff7d6e1bcc",
+    "training_seed": 29,
+    "condition": "clean_ema",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-29-delay50-95001.json",
+    "sha256": "990328c764bd844cd98cd1cefe9374d82f6670ad2531606e1c8b6cd7801313b9",
+    "training_seed": 29,
+    "condition": "delay50",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-delay50-95000.json",
+    "sha256": "16fd8d0eba70b3ae40bf535235ca2e7252d6289746646bfd8d3c0f9fdd33dae8",
+    "training_seed": 29,
+    "condition": "delay50",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-29-delay50_ema-95000.json",
+    "sha256": "48e1ec3ee2f8b4c4b888f3d207cd664db514e05d109fe551680ca19f44eac609",
+    "training_seed": 29,
+    "condition": "delay50_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-delay50_ema-95006.json",
+    "sha256": "72636784ad0ebcc783d53ff111ed4b48c370d7772e59933203bd524dae9c5fca",
+    "training_seed": 29,
+    "condition": "delay50_ema",
+    "scenario_seed": 95006,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-29-delay100-95000.json",
+    "sha256": "78d2a089050ad31782b0f707da1f25a2aa3176e60269f5ead344db5769a592b7",
+    "training_seed": 29,
+    "condition": "delay100",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-delay100-95002.json",
+    "sha256": "917ee35a397143bc25a95488bc7d1ecbdf4b0353b7ed76a47e7aeaf0341f4c61",
+    "training_seed": 29,
+    "condition": "delay100",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-29-delay100_ema-95000.json",
+    "sha256": "8f58c5c3333634f489f2149d574c1ed598dc5b0c4c93abe25f78921f6d6aa816",
+    "training_seed": 29,
+    "condition": "delay100_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-29-delay100_ema-95001.json",
+    "sha256": "c9fd8628e6b2e7a77b1293ece1edc1dab7eefc8f9674dd74696c917937e0e4fd",
+    "training_seed": 29,
+    "condition": "delay100_ema",
+    "scenario_seed": 95001,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-43-clean-95000.json",
+    "sha256": "f6c4005a5aeb5cd78bb6d62844dde0b5c0f6abf79b6dc5c3d6fdfaa2dbbf5882",
+    "training_seed": 43,
+    "condition": "clean",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-clean_ema-95004.json",
+    "sha256": "3f9cb42b40e495621e6504374a32b91b5af30a03a038eab2db95fd1085c9369f",
+    "training_seed": 43,
+    "condition": "clean_ema",
+    "scenario_seed": 95004,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-clean_ema-95000.json",
+    "sha256": "4758c2cf44ad26c032cf3dffdf890fab12559799cc160bbdd227839de37083bc",
+    "training_seed": 43,
+    "condition": "clean_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-43-delay50-95001.json",
+    "sha256": "e4aec39cdc2d0ddf54ec132d55ad767049e417a20fe7b9ca619256e43855b175",
+    "training_seed": 43,
+    "condition": "delay50",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-delay50-95000.json",
+    "sha256": "c68ec048a69efe8d029c291651eed2d04ef53c7ab3f860af05118fd1d82f6529",
+    "training_seed": 43,
+    "condition": "delay50",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-43-delay50_ema-95000.json",
+    "sha256": "1abe18b9901db43658d808ecfa822a5a34fa92ebac8ec7aabadd3fa128825ca4",
+    "training_seed": 43,
+    "condition": "delay50_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-delay50_ema-95002.json",
+    "sha256": "ea07e7d7c0f628ae436f1ff2e256caed34e45f87f638ad8a3d85fff885f22842",
+    "training_seed": 43,
+    "condition": "delay50_ema",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-43-delay100-95000.json",
+    "sha256": "1576be0b1283e389b7d264979ee5ec62d08ced70cefcae580168f0373746d644",
+    "training_seed": 43,
+    "condition": "delay100",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-delay100-95002.json",
+    "sha256": "e76f2879e0ee45dd5c08530017c4d3a05d9e117b5ee153575df2e2860ab4c643",
+    "training_seed": 43,
+    "condition": "delay100",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-43-delay100_ema-95000.json",
+    "sha256": "57096ed75fb9ff4bf484df6fa8cdd32e7c1f7f7fad3cb11e85b2c36d4680743a",
+    "training_seed": 43,
+    "condition": "delay100_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-43-delay100_ema-95001.json",
+    "sha256": "def79823ecf0760bddce2dc41bfadc14b673392eb275ae80fb1e1de395d2c6ec",
+    "training_seed": 43,
+    "condition": "delay100_ema",
+    "scenario_seed": 95001,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-71-clean-95000.json",
+    "sha256": "f966f529457f865f2921f61c4f7ea25a735ef30168a243b85d7b844ae8384e3c",
+    "training_seed": 71,
+    "condition": "clean",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-clean_ema-95000.json",
+    "sha256": "6e4c65e88e2a8696274e7d03f1437dbc9a72d4f10a10260afc2f66d08306f8c2",
+    "training_seed": 71,
+    "condition": "clean_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-clean_ema-95047.json",
+    "sha256": "89e0ee31108c1d0f4c522edbb3caf8b6007ae5497d18a188a0c785a650237bb8",
+    "training_seed": 71,
+    "condition": "clean_ema",
+    "scenario_seed": 95047,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-71-delay50-95001.json",
+    "sha256": "e869af5c789d1b6d3d98de1b17d8f608a28e075e6a6bf27594ceeee28dca01d9",
+    "training_seed": 71,
+    "condition": "delay50",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-delay50-95000.json",
+    "sha256": "62fdf1407da9931f47168ff2a39793570e70330791bd99e9680c0040a7ac6da7",
+    "training_seed": 71,
+    "condition": "delay50",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-71-delay50_ema-95001.json",
+    "sha256": "e16b01b01167bef48c86463ba639fb6294890e8f97f20c4fa1f39b0fb680badd",
+    "training_seed": 71,
+    "condition": "delay50_ema",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-delay50_ema-95000.json",
+    "sha256": "1e715695e02a563cbb6fee4046f0c8bf5862d1bbb44b711d5a56ced43fa061eb",
+    "training_seed": 71,
+    "condition": "delay50_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-71-delay100-95000.json",
+    "sha256": "d352596ee8b24611177a39f14e4a7500a6790022f903092a07c857234c5feb5e",
+    "training_seed": 71,
+    "condition": "delay100",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-delay100-95002.json",
+    "sha256": "4313baab24271fa0b88d99094707cb18671fd18999d0799ae9d984a7393820a7",
+    "training_seed": 71,
+    "condition": "delay100",
+    "scenario_seed": 95002,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-71-delay100_ema-95000.json",
+    "sha256": "53e53ce8dcf54b5a57064a20b5002fcbbfc3efd7a5c3007a422c669c9be60dbc",
+    "training_seed": 71,
+    "condition": "delay100_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-71-delay100_ema-95007.json",
+    "sha256": "075c6dfde2ca4f27f963371482a5da0f5ac8e50cb681f0210af95fee31946656",
+    "training_seed": 71,
+    "condition": "delay100_ema",
+    "scenario_seed": 95007,
+    "held_8_steps": false,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-clean-95000.json",
+    "sha256": "6cb089425ac6ae5b536adb0619548e4469501651295637c90c264fe254079546",
+    "training_seed": 97,
+    "condition": "clean",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-clean_ema-95003.json",
+    "sha256": "23b4c5c3c6865fe7599a6f69e8040d37988635c0956b4a518c3b39116ab31534",
+    "training_seed": 97,
+    "condition": "clean_ema",
+    "scenario_seed": 95003,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-clean_ema-95000.json",
+    "sha256": "2296c15f889d4da71db6e2fd2a1941476df96c4041aac584951cc0bfbfdc6450",
+    "training_seed": 97,
+    "condition": "clean_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-97-delay50-95005.json",
+    "sha256": "42c9a332bf8ce2f1a2f15cc38321ccb2a12dcaa75722102a2c6bcea443486cb5",
+    "training_seed": 97,
+    "condition": "delay50",
+    "scenario_seed": 95005,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-delay50-95000.json",
+    "sha256": "e09f69c5a4a74b16693bbd67b02b37aeb9ef1ea2acc941912f4195b1f8f07031",
+    "training_seed": 97,
+    "condition": "delay50",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-97-delay50_ema-95001.json",
+    "sha256": "e34461bc7ea761a3650794ae9c7d0d50165c935fc47cb146fddee89e93da37c9",
+    "training_seed": 97,
+    "condition": "delay50_ema",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-delay50_ema-95000.json",
+    "sha256": "8b067ffd0108500192de4c249ad17c96c8aed57fdc48221d21810d0c964bda01",
+    "training_seed": 97,
+    "condition": "delay50_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-97-delay100-95001.json",
+    "sha256": "6cbcc12cf8635b916c1b2643a5ebe87b8894c9d1c42efc52a04f82fd99027dcd",
+    "training_seed": 97,
+    "condition": "delay100",
+    "scenario_seed": 95001,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-delay100-95000.json",
+    "sha256": "6f72fab6cfe158a7b8886a8a1e903ee92c6a1e951e2063f2533a347224719308",
+    "training_seed": 97,
+    "condition": "delay100",
+    "scenario_seed": 95000,
+    "held_8_steps": false,
+    "official_success": false
+  },
+  {
+    "path": "replays/bc-97-delay100_ema-95000.json",
+    "sha256": "d9ad36a4f78a53d5b923938b4d35efe3f8c7837286e36d7c83b489532694ecc3",
+    "training_seed": 97,
+    "condition": "delay100_ema",
+    "scenario_seed": 95000,
+    "held_8_steps": true,
+    "official_success": true
+  },
+  {
+    "path": "replays/bc-97-delay100_ema-95009.json",
+    "sha256": "2fbf2278c8a138df741d4d53ddb875379b68700acee708baa15b60912bc777bc",
+    "training_seed": 97,
+    "condition": "delay100_ema",
+    "scenario_seed": 95009,
+    "held_8_steps": false,
+    "official_success": false
+  }
+]

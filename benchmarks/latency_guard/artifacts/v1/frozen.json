@@ -1,0 +1,65 @@
+{
+  "config": {
+    "name": "latency-guard-v1",
+    "status": "prospective follow-up to an observed v1 failure; not an original preregistered hypothesis",
+    "question": "Can simple execution-time temporal filters reduce delay failures of a frozen BC256 policy without retraining?",
+    "training_seeds": [
+      17,
+      29,
+      43,
+      71,
+      97
+    ],
+    "base_checkpoint_directory": "artifacts/study/v1/checkpoints",
+    "base_model": "raw256",
+    "variants": [
+      "identity",
+      "gain_half",
+      "ema_half"
+    ],
+    "conditions": [
+      {
+        "name": "clean",
+        "distribution": "id",
+        "delay_steps": 0
+      },
+      {
+        "name": "delay_50ms",
+        "distribution": "id",
+        "delay_steps": 1
+      },
+      {
+        "name": "delay_100ms",
+        "distribution": "id",
+        "delay_steps": 2
+      }
+    ],
+    "scenario_start": 80000,
+    "episodes": 100,
+    "primary_contrast": "ema_half minus identity under delay_50ms",
+    "secondary_constraints": "Report clean-condition difference and successful episode length; do not hide loss of speed or clean success.",
+    "coefficient_selection": "0.5 fixed as a simple dyadic baseline before new test results; no coefficient sweep or post-test tuning",
+    "selection_caveat": "BC256 was chosen after observing its latency sensitivity in study v1; new scenario seeds prevent reusing the same evaluation cases but do not erase model-family selection bias.",
+    "claims": "Engineering baseline and controlled intervention, not a novel smoothing algorithm or real-robot result."
+  },
+  "source_sha256": {
+    "src/pickplace/env.py": "df2dac95c8edde043aeba200369874bee4bc87617adddb1f788cce1ab9744f38",
+    "src/pickplace/assets/scene.xml": "22521dd863fa810088831cf3374a24269e6f0092e0bc7493858c1aba2b10a65c",
+    "src/pickplace/policy.py": "6d3b97fe81c21fe3b4cd1933d5e6fabf52ba770c0f2e515095000462b03993cc",
+    "src/pickplace/study_policy.py": "6ac71ee926c2b70647f18b0144e559e9ec43b693dc3c6eb620738eb852409a29",
+    "src/pickplace/robustness.py": "4db12c28d55b7866a8a6c8264c687b971d2887cdda07303d2376151d4281f283",
+    "src/pickplace/study_analysis.py": "90a333023af5b4e831213be84713497040bb8cea5196d77054171094c5b73ab2",
+    "src/pickplace/study.py": "9f245791a1e17e86428a961de462a9967f3024edbc21f66e6e3654005f99f841",
+    "benchmarks/latency_guard/run.py": "f6e01c05440bf079b93c727055555c8b423353d9cf981810e0f57e0bd18bbc2f",
+    "benchmarks/latency_guard/protocol.json": "a0c6ef8302eef2cc4e63fe2d92ca36ad19f62b50035061fe097a7a6e14752b27"
+  },
+  "checkpoint_sha256": {
+    "17": "24b7ee2ff641c4676bbe5367b309cd02c684449ed845e95c694bfb81e4ebd37b",
+    "29": "1c869fcd52fafcc263548de499e59075ae708edfbb52dc9ea44a50ff7db1ad46",
+    "43": "b694553335a8ca4c2cec21aa96f3a432a960078f52035b0ede4c38d51994d1e2",
+    "71": "05b575e83327d1ccc55f76ea6a34eb655d918d39b2bac362914be46ae35346d1",
+    "97": "9a38f1feb86d2273d39bfcbb9f0c72ab319818d7560648cb821913c0f727f6d7"
+  },
+  "base_protocol_sha256": "b84a637f082fb2a8080ec0a74cee82ca4470d1910e8958883d0caf3db07b252e",
+  "frozen_at": "2026-10-15T15:54:26.225916+08:00"
+}

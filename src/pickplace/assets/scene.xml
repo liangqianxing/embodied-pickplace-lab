@@ -1,0 +1,51 @@
+<mujoco model="Pickplace Lab Cartesian Gripper">
+  <compiler angle="radian"/>
+  <option timestep="0.002" integrator="implicitfast" cone="elliptic" iterations="50"/>
+  <visual><global offwidth="960" offheight="720"/><quality shadowsize="2048"/></visual>
+  <default>
+    <joint damping="3"/>
+    <geom condim="4" friction="1.8 0.01 0.001" solref="0.006 1" solimp="0.95 0.99 0.001"/>
+  </default>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" width="512" height="512" rgb1="0.88 0.88 0.84" rgb2="0.82 0.83 0.78"/>
+    <material name="table" texture="grid" texrepeat="12 10" reflectance="0.08"/>
+    <material name="metal" rgba="0.20 0.29 0.26 1"/>
+  </asset>
+  <worldbody>
+    <light pos="0 -0.3 1.5" dir="0 0 -1" diffuse="0.9 0.9 0.9"/>
+    <light pos="-1 -1 0.7" dir="1 1 -0.3" diffuse="0.45 0.45 0.45"/>
+    <camera name="overview" pos="0.95 -1.05 0.85" xyaxes="0.74 0.67 0 -0.37 0.41 0.83"/>
+    <geom name="table" type="box" pos="0 0 -0.025" size="0.38 0.32 0.025" material="table"/>
+    <geom type="plane" size="2 2 0.01" pos="0 0 -0.10" rgba="0.93 0.92 0.89 1"/>
+    <geom type="box" pos="-0.32 0.25 0.23" size="0.015 0.015 0.23" material="metal" contype="0" conaffinity="0"/>
+    <geom type="box" pos="0.32 0.25 0.23" size="0.015 0.015 0.23" material="metal" contype="0" conaffinity="0"/>
+    <geom type="box" pos="0 0.25 0.45" size="0.335 0.018 0.018" material="metal" contype="0" conaffinity="0"/>
+    <site name="goal" type="cylinder" pos="0.12 0.12 0.001" size="0.045 0.001" rgba="0.16 0.57 0.37 0.45"/>
+    <body name="gripper" pos="0 0 0" gravcomp="1">
+      <joint name="x" type="slide" axis="1 0 0" range="-0.27 0.27"/>
+      <joint name="y" type="slide" axis="0 1 0" range="-0.23 0.23"/>
+      <joint name="z" type="slide" axis="0 0 1" range="0.103 0.40"/>
+      <geom name="palm" type="box" size="0.078 0.04 0.014" mass="0.5" material="metal"/>
+      <geom name="stem" type="cylinder" pos="0 0 0.075" size="0.012 0.065" mass="0.1" material="metal" contype="0" conaffinity="0"/>
+      <body name="left_finger" pos="-0.01 0 -0.055" gravcomp="1">
+        <joint name="left" type="slide" axis="-1 0 0" range="0.008 0.055" damping="2"/>
+        <geom name="left_pad" type="box" size="0.01 0.032 0.045" mass="0.06" rgba="0.12 0.18 0.16 1"/>
+      </body>
+      <body name="right_finger" pos="0.01 0 -0.055" gravcomp="1">
+        <joint name="right" type="slide" axis="1 0 0" range="0.008 0.055" damping="2"/>
+        <geom name="right_pad" type="box" size="0.01 0.032 0.045" mass="0.06" rgba="0.12 0.18 0.16 1"/>
+      </body>
+    </body>
+    <body name="cube" pos="0 0 0.025">
+      <freejoint name="cube_joint"/>
+      <geom name="cube_geom" type="box" size="0.025 0.025 0.025" mass="0.045" rgba="0.95 0.36 0.12 1"/>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="x_motor" joint="x" kp="1800" kv="80" ctrlrange="-0.27 0.27" forcerange="-100 100"/>
+    <position name="y_motor" joint="y" kp="1800" kv="80" ctrlrange="-0.23 0.23" forcerange="-100 100"/>
+    <position name="z_motor" joint="z" kp="1800" kv="80" ctrlrange="0.103 0.40" forcerange="-100 100"/>
+    <position name="left_motor" joint="left" kp="900" kv="8" ctrlrange="0.008 0.055" forcerange="-18 18"/>
+    <position name="right_motor" joint="right" kp="900" kv="8" ctrlrange="0.008 0.055" forcerange="-18 18"/>
+  </actuator>
+</mujoco>

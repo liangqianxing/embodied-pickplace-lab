@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f1e9">
+  <title>Pickplace Lab — 从示范到行动</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%232b4d3a'/%3E%3Cpath d='M12 12v24h10v-8h4v8h10V12h-7v9H19v-9z' fill='%23edeece'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a href="#lab" class="brand" aria-label="Pickplace Lab 首页"><span class="brand-mark">π</span><span>pickplace<span class="brand-small">EMBODIED AI LAB</span></span></a>
+    <div class="side-caption">WORKSPACE / 001</div>
+    <nav aria-label="主导航"><a class="active" href="#lab"><span>◈</span> 实验台 <small>01</small></a><a href="#experiments"><span>↗</span> 实验结果 <small>02</small></a><a href="#protocol"><span>≡</span> 方法与边界 <small>03</small></a></nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span> LOCAL SIMULATION<p>真实接触。可复现实验。<br>不把一次成功当作结论。</p><div class="version" id="version">MUJOCO / PYTORCH</div></div>
+  </aside>
+  <main>
+    <header><span>ROBOT LEARNING / 从示范到行动</span><span class="local-badge"><i></i> 本地实验环境</span></header>
+    <section class="intro" id="lab"><div><div class="eyebrow">AN EXPERIMENT IN EMBODIED INTELLIGENCE</div><h1>Pick. Place. <em>Learn.</em></h1><p>让夹爪从示范中学会行动。观察成功，也认真看待失败。</p></div><div class="intro-stamp">01<span>STATE-BASED<br>IMITATION LEARNING</span></div></section>
+    <div id="error-banner" class="error-banner" role="alert" hidden></div>
+    <section class="metrics" aria-label="实验关键指标">
+      <article><span>DAgger · 同分布成功率</span><strong id="metric-id">—</strong><small id="metric-id-ci">等待实验数据</small></article>
+      <article><span>DAgger · 新位置成功率</span><strong id="metric-ood">—</strong><small id="metric-ood-ci">超出训练位置范围</small></article>
+      <article><span>专家示范轨迹</span><strong id="metric-demos">—</strong><small id="metric-transitions">按完整轨迹划分数据</small></article>
+      <article><span>独立测试回合</span><strong id="metric-trials">—</strong><small>5 种策略 × 2 种位置分布</small></article>
+    </section>
+    <section class="bench-grid">
+      <article class="simulation panel">
+        <div class="panel-heading"><h2><span class="section-num">01</span> 机器人实验台</h2><span id="replay-badge" class="badge">等待轨迹</span></div>
+        <div class="scene-wrap"><canvas id="scene" aria-label="MuJoCo 轨迹的等轴测状态示意图"></canvas><div class="scene-label">CARTESIAN GRIPPER<span>3 AXIS + PARALLEL JAWS</span></div><div class="scene-axis">Z ↑ &nbsp; X ↗ &nbsp; Y ↖</div><div class="scene-legend"><span><i class="orange"></i> 搬运方块</span><span><i class="green"></i> 目标区域</span></div></div>
+        <div class="playback"><button id="play" class="icon-button" aria-label="播放轨迹">▶</button><input type="range" id="timeline" min="0" max="1" value="0" aria-label="回放进度"><span id="time">0.00 s</span><select id="speed" aria-label="回放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></div>
+        <div class="telemetry"><span>夹爪开度 <b id="opening">—</b></span><span>双侧接触 <b id="contact">—</b></span><span>目标距离 <b id="distance">—</b></span></div>
+        <div class="scene-note">基于真实 MuJoCo 状态的示意回放，不是浏览器物理引擎。<button id="show-render">查看物理引擎实际渲染 ↗</button></div>
+      </article>
+      <aside class="run-panel panel">
+        <div class="panel-heading"><h2>运行一次新实验</h2><span class="tiny-tag">INFERENCE</span></div>
+        <p class="muted">加载已训练权重，在新的仿真场景里闭环执行。不是预设动画。</p>
+        <form id="run-form"><label for="policy">策略 / POLICY</label><select id="policy"><option value="dagger">DAgger · 纠正学习</option><option value="bc256">BC · 256 条示范</option><option value="bc32">BC · 32 条示范</option><option value="expert">脚本专家 · 参考上界</option><option value="random">随机策略 · 下界</option></select><label for="distribution">位置分布 / DISTRIBUTION</label><select id="distribution"><option value="id">同分布 · 训练范围内</option><option value="ood">新位置 · 训练范围外</option></select><label for="seed">场景种子 / SEED</label><div class="seed-input"><input id="seed" type="number" min="0" max="2147483647" value="42000" required><button id="next-seed" type="button" aria-label="使用下一个场景种子">+1</button></div><button id="run" type="submit" class="primary-button">运行策略 <span>↗</span></button></form>
+        <p id="run-status" role="status" class="run-status">CPU 推理 · 20 Hz 控制 · 最多 11 秒仿真</p>
+        <div class="saved-replays"><label for="replay">评测回放 / 成功与失败</label><select id="replay"><option>加载中…</option></select><p>每组保留首个成功与首个失败，无手工挑选。交互试跑不会计入正式评测。</p></div>
+      </aside>
+    </section>
+    <section id="experiments" class="experiments">
+      <div class="section-heading"><div class="eyebrow">MEASURE, DON'T GUESS</div><h2>一个模型，不止一次成功。</h2><p>每种策略使用相同的测试场景。误差区间为 Wilson 95% 置信区间。</p></div>
+      <div class="results-grid"><article class="panel comparison"><div class="panel-heading"><h3>策略对照</h3><div class="chart-legend"><span><i class="green"></i> 同分布</span><span><i class="orange"></i> 新位置</span></div></div><div id="comparison-bars"></div><div class="table-scroll"><table><caption class="sr-only">各策略在两种分布上的成功率与置信区间</caption><thead><tr><th>策略</th><th>同分布 · 95% CI</th><th>新位置 · 95% CI</th></tr></thead><tbody id="results-table"></tbody></table></div><p class="footnote">DAgger 使用额外专家标注，并非相同标注预算的公平比较。</p></article>
+      <article class="panel training"><div class="panel-heading"><h3>学习曲线</h3><select id="curve-policy" aria-label="学习曲线策略"><option value="bc256">BC · 256</option><option value="bc32">BC · 32</option><option value="dagger">DAgger · 最后一轮</option></select></div><div class="chart-legend curve-legend"><span><i class="green"></i> 训练损失</span><span><i class="orange"></i> 验证损失</span><small>LOG SCALE</small></div><canvas id="loss-chart" aria-label="训练损失与验证损失曲线"></canvas><div class="training-detail" id="training-detail"></div><div class="failure-summary"><span class="eyebrow">DAgger / 新位置失败分类</span><div id="failure-counts"></div><p>分类依据回合最终状态，不代表已证明的失败原因。</p></div></article></div>
+    </section>
+    <section id="protocol" class="protocol"><div><div class="eyebrow">REPRODUCIBILITY FIRST</div><h2>完整闭环，<br><em>明确边界。</em></h2><p>这是状态输入的机器人模仿学习项目。<br>不是 VLA，不是视觉抓取，也没有做过真机验证。</p></div><div class="protocol-list"><article><span>01</span><div><h3>物理接触，不强制绑定</h3><p>MuJoCo 500 Hz 仿真，平行夹爪靠接触与摩擦抓取自由刚体。物体必须被抬高，再放置、松爪、退开并稳定停留。</p></div></article><article><span>02</span><div><h3>数据、训练与测试分开</h3><p>256 条专家训练轨迹，32 条独立验证轨迹。按完整回合划分，测试场景不参与训练。策略只读取 26 维观测，不读取专家阶段。</p></div></article><article><span>03</span><div><h3>成功率不等于泛化能力</h3><p>当前只改变初始位置；物体形状、质量与摩擦固定。只有一个训练随机种子，区间不包含重新训练的方差。</p></div></article></div></section>
+    <footer><span>PICKPLACE LAB <b>·</b> FROM DEMONSTRATION TO ACTION</span><span id="generated-at">LOCAL EXPERIMENT</span></footer>
+  </main>
+  <dialog id="render-dialog"><button id="close-render" aria-label="关闭物理渲染" class="dialog-close">×</button><div class="eyebrow">ACTUAL MUJOCO RENDER</div><h2>物理引擎中的真实轨迹</h2><img src="/media/demo.gif" alt="已训练策略在 MuJoCo 中抓取、搬运和释放方块的实际渲染"><p id="render-caption">加载渲染来源…</p><p class="muted">这里展示固定评测样例；上方可交互回放与试跑其他场景。</p></dialog>
+</body>
+</html>

@@ -1,0 +1,712 @@
+{
+  "variant": "gain_half",
+  "training_seed": 43,
+  "condition": {
+    "name": "clean",
+    "distribution": "id",
+    "delay_steps": 0
+  },
+  "frozen_sha256": "9809c3232a7fd7b5be87f45f48534fd8511c268754611c5dcd3b57fc63f10a4f",
+  "trials": [
+    {
+      "seed": 80000,
+      "success": true,
+      "steps": 71,
+      "goal_distance": 0.003924302805288146,
+      "lifted": true
+    },
+    {
+      "seed": 80001,
+      "success": true,
+      "steps": 69,
+      "goal_distance": 0.002366296799039365,
+      "lifted": true
+    },
+    {
+      "seed": 80002,
+      "success": true,
+      "steps": 78,
+      "goal_distance": 0.0038888539516430407,
+      "lifted": true
+    },
+    {
+      "seed": 80003,
+      "success": true,
+      "steps": 83,
+      "goal_distance": 0.002125181747149713,
+      "lifted": true
+    },
+    {
+      "seed": 80004,
+      "success": true,
+      "steps": 90,
+      "goal_distance": 0.004943357809542994,
+      "lifted": true
+    },
+    {
+      "seed": 80005,
+      "success": true,
+      "steps": 78,
+      "goal_distance": 0.004546345574702287,
+      "lifted": true
+    },
+    {
+      "seed": 80006,
+      "success": true,
+      "steps": 69,
+      "goal_distance": 0.0042190932113640835,
+      "lifted": true
+    },
+    {
+      "seed": 80007,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.002289046531126762,
+      "lifted": true
+    },
+    {
+      "seed": 80008,
+      "success": true,
+      "steps": 71,
+      "goal_distance": 0.003051792214921539,
+      "lifted": true
+    },
+    {
+      "seed": 80009,
+      "success": true,
+      "steps": 66,
+      "goal_distance": 0.0029063231077995555,
+      "lifted": true
+    },
+    {
+      "seed": 80010,
+      "success": true,
+      "steps": 65,
+      "goal_distance": 0.003997414612009767,
+      "lifted": true
+    },
+    {
+      "seed": 80011,
+      "success": true,
+      "steps": 88,
+      "goal_distance": 0.0007287094985308846,
+      "lifted": true
+    },
+    {
+      "seed": 80012,
+      "success": true,
+      "steps": 108,
+      "goal_distance": 0.008408472102431485,
+      "lifted": true
+    },
+    {
+      "seed": 80013,
+      "success": true,
+      "steps": 85,
+      "goal_distance": 0.001328487429263738,
+      "lifted": true
+    },
+    {
+      "seed": 80014,
+      "success": true,
+      "steps": 82,
+      "goal_distance": 0.006514650262148008,
+      "lifted": true
+    },
+    {
+      "seed": 80015,
+      "success": true,
+      "steps": 79,
+      "goal_distance": 0.004459162265142585,
+      "lifted": true
+    },
+    {
+      "seed": 80016,
+      "success": true,
+      "steps": 95,
+      "goal_distance": 0.0012052513679443489,
+      "lifted": true
+    },
+    {
+      "seed": 80017,
+      "success": true,
+      "steps": 72,
+      "goal_distance": 0.005890985540043333,
+      "lifted": true
+    },
+    {
+      "seed": 80018,
+      "success": true,
+      "steps": 82,
+      "goal_distance": 0.001867083241886798,
+      "lifted": true
+    },
+    {
+      "seed": 80019,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.005463225349463487,
+      "lifted": true
+    },
+    {
+      "seed": 80020,
+      "success": true,
+      "steps": 89,
+      "goal_distance": 0.0027777320910485465,
+      "lifted": true
+    },
+    {
+      "seed": 80021,
+      "success": true,
+      "steps": 75,
+      "goal_distance": 0.0015063243902328854,
+      "lifted": true
+    },
+    {
+      "seed": 80022,
+      "success": true,
+      "steps": 83,
+      "goal_distance": 0.0009220422044408745,
+      "lifted": true
+    },
+    {
+      "seed": 80023,
+      "success": true,
+      "steps": 68,
+      "goal_distance": 0.007339245470689735,
+      "lifted": true
+    },
+    {
+      "seed": 80024,
+      "success": true,
+      "steps": 94,
+      "goal_distance": 0.011328270257736523,
+      "lifted": true
+    },
+    {
+      "seed": 80025,
+      "success": true,
+      "steps": 77,
+      "goal_distance": 0.005337238217408127,
+      "lifted": true
+    },
+    {
+      "seed": 80026,
+      "success": true,
+      "steps": 69,
+      "goal_distance": 0.007512775572328427,
+      "lifted": true
+    },
+    {
+      "seed": 80027,
+      "success": true,
+      "steps": 66,
+      "goal_distance": 0.0036990673756218152,
+      "lifted": true
+    },
+    {
+      "seed": 80028,
+      "success": true,
+      "steps": 86,
+      "goal_distance": 0.004216802830202717,
+      "lifted": true
+    },
+    {
+      "seed": 80029,
+      "success": true,
+      "steps": 75,
+      "goal_distance": 0.0051609391806578826,
+      "lifted": true
+    },
+    {
+      "seed": 80030,
+      "success": true,
+      "steps": 83,
+      "goal_distance": 0.005488178967072818,
+      "lifted": true
+    },
+    {
+      "seed": 80031,
+      "success": true,
+      "steps": 65,
+      "goal_distance": 0.003238675184491667,
+      "lifted": true
+    },
+    {
+      "seed": 80032,
+      "success": true,
+      "steps": 76,
+      "goal_distance": 0.005343643914054029,
+      "lifted": true
+    },
+    {
+      "seed": 80033,
+      "success": true,
+      "steps": 85,
+      "goal_distance": 0.0038319419463399085,
+      "lifted": true
+    },
+    {
+      "seed": 80034,
+      "success": true,
+      "steps": 99,
+      "goal_distance": 0.010904001249220153,
+      "lifted": true
+    },
+    {
+      "seed": 80035,
+      "success": true,
+      "steps": 84,
+      "goal_distance": 0.005991910009519836,
+      "lifted": true
+    },
+    {
+      "seed": 80036,
+      "success": true,
+      "steps": 73,
+      "goal_distance": 0.006482474965710938,
+      "lifted": true
+    },
+    {
+      "seed": 80037,
+      "success": true,
+      "steps": 67,
+      "goal_distance": 0.003215477593166943,
+      "lifted": true
+    },
+    {
+      "seed": 80038,
+      "success": true,
+      "steps": 85,
+      "goal_distance": 0.00264551159435965,
+      "lifted": true
+    },
+    {
+      "seed": 80039,
+      "success": true,
+      "steps": 88,
+      "goal_distance": 0.00416658808123388,
+      "lifted": true
+    },
+    {
+      "seed": 80040,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.003199942943672228,
+      "lifted": true
+    },
+    {
+      "seed": 80041,
+      "success": true,
+      "steps": 92,
+      "goal_distance": 0.0049069527676565885,
+      "lifted": true
+    },
+    {
+      "seed": 80042,
+      "success": true,
+      "steps": 87,
+      "goal_distance": 0.0060445535647469404,
+      "lifted": true
+    },
+    {
+      "seed": 80043,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.0030786865652630228,
+      "lifted": true
+    },
+    {
+      "seed": 80044,
+      "success": true,
+      "steps": 80,
+      "goal_distance": 0.005266479435383367,
+      "lifted": true
+    },
+    {
+      "seed": 80045,
+      "success": true,
+      "steps": 64,
+      "goal_distance": 0.003972020742989481,
+      "lifted": true
+    },
+    {
+      "seed": 80046,
+      "success": true,
+      "steps": 103,
+      "goal_distance": 0.009462341775321997,
+      "lifted": true
+    },
+    {
+      "seed": 80047,
+      "success": true,
+      "steps": 90,
+      "goal_distance": 0.004943910876319819,
+      "lifted": true
+    },
+    {
+      "seed": 80048,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.004742032254887945,
+      "lifted": true
+    },
+    {
+      "seed": 80049,
+      "success": true,
+      "steps": 88,
+      "goal_distance": 0.0037210094379938907,
+      "lifted": true
+    },
+    {
+      "seed": 80050,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.005943544031068115,
+      "lifted": true
+    },
+    {
+      "seed": 80051,
+      "success": true,
+      "steps": 77,
+      "goal_distance": 0.002605076877643281,
+      "lifted": true
+    },
+    {
+      "seed": 80052,
+      "success": true,
+      "steps": 83,
+      "goal_distance": 0.003160838444884602,
+      "lifted": true
+    },
+    {
+      "seed": 80053,
+      "success": true,
+      "steps": 89,
+      "goal_distance": 0.0021546450409479613,
+      "lifted": true
+    },
+    {
+      "seed": 80054,
+      "success": true,
+      "steps": 86,
+      "goal_distance": 0.002955397040714226,
+      "lifted": true
+    },
+    {
+      "seed": 80055,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.038846479506123216,
+      "lifted": true
+    },
+    {
+      "seed": 80056,
+      "success": true,
+      "steps": 76,
+      "goal_distance": 0.0014301744189371714,
+      "lifted": true
+    },
+    {
+      "seed": 80057,
+      "success": true,
+      "steps": 71,
+      "goal_distance": 0.0021457643522552446,
+      "lifted": true
+    },
+    {
+      "seed": 80058,
+      "success": true,
+      "steps": 69,
+      "goal_distance": 0.003052713794630239,
+      "lifted": true
+    },
+    {
+      "seed": 80059,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.002027687990092575,
+      "lifted": true
+    },
+    {
+      "seed": 80060,
+      "success": true,
+      "steps": 87,
+      "goal_distance": 0.004369104952105913,
+      "lifted": true
+    },
+    {
+      "seed": 80061,
+      "success": true,
+      "steps": 90,
+      "goal_distance": 0.0045669242448587635,
+      "lifted": true
+    },
+    {
+      "seed": 80062,
+      "success": true,
+      "steps": 78,
+      "goal_distance": 0.005447490002311641,
+      "lifted": true
+    },
+    {
+      "seed": 80063,
+      "success": true,
+      "steps": 69,
+      "goal_distance": 0.0037957628592777994,
+      "lifted": true
+    },
+    {
+      "seed": 80064,
+      "success": true,
+      "steps": 86,
+      "goal_distance": 0.004334508621930294,
+      "lifted": true
+    },
+    {
+      "seed": 80065,
+      "success": true,
+      "steps": 86,
+      "goal_distance": 0.004199497296574586,
+      "lifted": true
+    },
+    {
+      "seed": 80066,
+      "success": true,
+      "steps": 72,
+      "goal_distance": 0.00534838620608023,
+      "lifted": true
+    },
+    {
+      "seed": 80067,
+      "success": true,
+      "steps": 64,
+      "goal_distance": 0.003936104780493161,
+      "lifted": true
+    },
+    {
+      "seed": 80068,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.002951388655101728,
+      "lifted": true
+    },
+    {
+      "seed": 80069,
+      "success": true,
+      "steps": 79,
+      "goal_distance": 0.005475846995380205,
+      "lifted": true
+    },
+    {
+      "seed": 80070,
+      "success": true,
+      "steps": 93,
+      "goal_distance": 0.00540094102834382,
+      "lifted": true
+    },
+    {
+      "seed": 80071,
+      "success": true,
+      "steps": 65,
+      "goal_distance": 0.002355266642523868,
+      "lifted": true
+    },
+    {
+      "seed": 80072,
+      "success": true,
+      "steps": 79,
+      "goal_distance": 0.003050609687641339,
+      "lifted": true
+    },
+    {
+      "seed": 80073,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.003791030488003669,
+      "lifted": true
+    },
+    {
+      "seed": 80074,
+      "success": true,
+      "steps": 70,
+      "goal_distance": 0.0026508499501063,
+      "lifted": true
+    },
+    {
+      "seed": 80075,
+      "success": true,
+      "steps": 79,
+      "goal_distance": 0.005323245849434053,
+      "lifted": true
+    },
+    {
+      "seed": 80076,
+      "success": true,
+      "steps": 76,
+      "goal_distance": 0.0035441321584407585,
+      "lifted": true
+    },
+    {
+      "seed": 80077,
+      "success": true,
+      "steps": 64,
+      "goal_distance": 0.005816573230321179,
+      "lifted": true
+    },
+    {
+      "seed": 80078,
+      "success": true,
+      "steps": 76,
+      "goal_distance": 0.002671374533913408,
+      "lifted": true
+    },
+    {
+      "seed": 80079,
+      "success": false,
+      "steps": 220,
+      "goal_distance": 0.07400270009417029,
+      "lifted": true
+    },
+    {
+      "seed": 80080,
+      "success": true,
+      "steps": 81,
+      "goal_distance": 0.0021317434969662518,
+      "lifted": true
+    },
+    {
+      "seed": 80081,
+      "success": true,
+      "steps": 64,
+      "goal_distance": 0.0054402678222512605,
+      "lifted": true
+    },
+    {
+      "seed": 80082,
+      "success": true,
+      "steps": 75,
+      "goal_distance": 0.0034456052205893806,
+      "lifted": true
+    },
+    {
+      "seed": 80083,
+      "success": true,
+      "steps": 66,
+      "goal_distance": 0.001755178918179255,
+      "lifted": true
+    },
+    {
+      "seed": 80084,
+      "success": true,
+      "steps": 107,
+      "goal_distance": 0.0055479279237550085,
+      "lifted": true
+    },
+    {
+      "seed": 80085,
+      "success": false,
+      "steps": 220,
+      "goal_distance": 0.0491355730049796,
+      "lifted": true
+    },
+    {
+      "seed": 80086,
+      "success": true,
+      "steps": 66,
+      "goal_distance": 0.004490003162052896,
+      "lifted": true
+    },
+    {
+      "seed": 80087,
+      "success": true,
+      "steps": 88,
+      "goal_distance": 0.0016861520320965095,
+      "lifted": true
+    },
+    {
+      "seed": 80088,
+      "success": true,
+      "steps": 89,
+      "goal_distance": 0.004731283770844227,
+      "lifted": true
+    },
+    {
+      "seed": 80089,
+      "success": true,
+      "steps": 99,
+      "goal_distance": 0.012027137801788025,
+      "lifted": true
+    },
+    {
+      "seed": 80090,
+      "success": true,
+      "steps": 67,
+      "goal_distance": 0.003552883530722137,
+      "lifted": true
+    },
+    {
+      "seed": 80091,
+      "success": true,
+      "steps": 75,
+      "goal_distance": 0.006253149507452829,
+      "lifted": true
+    },
+    {
+      "seed": 80092,
+      "success": true,
+      "steps": 86,
+      "goal_distance": 0.005915610846457715,
+      "lifted": true
+    },
+    {
+      "seed": 80093,
+      "success": true,
+      "steps": 92,
+      "goal_distance": 0.005236586947699028,
+      "lifted": true
+    },
+    {
+      "seed": 80094,
+      "success": true,
+      "steps": 87,
+      "goal_distance": 0.001615601769902391,
+      "lifted": true
+    },
+    {
+      "seed": 80095,
+      "success": true,
+      "steps": 68,
+      "goal_distance": 0.0032512847150481293,
+      "lifted": true
+    },
+    {
+      "seed": 80096,
+      "success": true,
+      "steps": 90,
+      "goal_distance": 0.006862700018120315,
+      "lifted": true
+    },
+    {
+      "seed": 80097,
+      "success": true,
+      "steps": 76,
+      "goal_distance": 0.004761017071114139,
+      "lifted": true
+    },
+    {
+      "seed": 80098,
+      "success": true,
+      "steps": 67,
+      "goal_distance": 0.006632831161474989,
+      "lifted": true
+    },
+    {
+      "seed": 80099,
+      "success": true,
+      "steps": 78,
+      "goal_distance": 0.005052231120171168,
+      "lifted": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "coordinate-noise-study-v1",
+  "question": "Can an explicit planar-translation-invariant representation and consistent observation-noise augmentation improve low-data closed-loop robustness?",
+  "training_seeds": [17, 29, 43, 71, 97],
+  "epochs": 150,
+  "batch_size": 256,
+  "validation_selection": "minimum clean held-out episode validation loss",
+  "models": [
+    {"name": "raw32", "episodes": 32, "relative": false, "augment": false},
+    {"name": "relative32", "episodes": 32, "relative": true, "augment": false},
+    {"name": "noise32", "episodes": 32, "relative": false, "augment": true},
+    {"name": "relative_noise32", "episodes": 32, "relative": true, "augment": true},
+    {"name": "raw256", "episodes": 256, "relative": false, "augment": false}
+  ],
+  "augmentation": {"grip_std": 0.001, "cube_std": 0.003, "goal_std": 0.001},
+  "conditions": [
+    {"name": "id", "distribution": "id"},
+    {"name": "position", "distribution": "ood"},
+    {"name": "sensor_3mm", "distribution": "id", "grip_std": 0.001, "cube_std": 0.003, "goal_std": 0.001},
+    {"name": "delay_50ms", "distribution": "id", "delay_steps": 1},
+    {"name": "dynamics", "distribution": "id", "mass_scale": 2.0, "friction_scale": 0.55},
+    {"name": "combined", "distribution": "ood", "grip_std": 0.001, "cube_std": 0.003, "goal_std": 0.001, "delay_steps": 1, "mass_scale": 2.0, "friction_scale": 0.55}
+  ],
+  "test_seed_start": 50000,
+  "test_episodes": 100,
+  "primary_endpoint": "unweighted mean success over position, sensor_3mm, delay_50ms, dynamics, combined",
+  "primary_comparison": ["relative_noise32", "raw32"],
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 20261015,
+  "limitations": ["custom Cartesian task, not a standard benchmark", "state observations only", "five seeds vary both dataset subset and optimization", "no claims of architectural novelty", "noise levels are known at design time, so this is not unknown-noise generalization", "no external evaluation or public impact established"]
+}

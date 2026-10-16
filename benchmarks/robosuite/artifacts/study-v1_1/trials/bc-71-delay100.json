@@ -1,0 +1,763 @@
+{
+  "training_seed": 71,
+  "condition": {
+    "name": "delay100",
+    "delay_steps": 2,
+    "filter": "identity"
+  },
+  "frozen_sha256": "9bb046aef99491cfccdef22aa5d137277e1902fc16e0890b0a19a1c35cad8fec",
+  "checkpoint_sha256": "503873c91cc767796359c5e457c6639382159e4b5fdf9a10fa69e19ce55412f3",
+  "trials": [
+    {
+      "seed": 95000,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 127,
+      "first_success_step": 120,
+      "max_cube_height": 0.8889348630511745,
+      "cube_size": [
+        0.02054231565296287,
+        0.020105203223976978,
+        0.02172888930720034
+      ]
+    },
+    {
+      "seed": 95001,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 72,
+      "first_success_step": 65,
+      "max_cube_height": 0.8472289555916006,
+      "cube_size": [
+        0.020566580257992365,
+        0.02084730281557414,
+        0.021767363502758107
+      ]
+    },
+    {
+      "seed": 95002,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8313380450501315,
+      "cube_size": [
+        0.02015937703343746,
+        0.02006746916660566,
+        0.021338045050131507
+      ]
+    },
+    {
+      "seed": 95003,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8302679826490813,
+      "cube_size": [
+        0.020179013811980975,
+        0.021258965430619836,
+        0.02026798264908129
+      ]
+    },
+    {
+      "seed": 95004,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8312565015450937,
+      "cube_size": [
+        0.021504605574221774,
+        0.02049866622723238,
+        0.021256501545093672
+      ]
+    },
+    {
+      "seed": 95005,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 69,
+      "first_success_step": 62,
+      "max_cube_height": 0.8876502577606035,
+      "cube_size": [
+        0.020003655951734048,
+        0.02153330475272717,
+        0.020324484062291433
+      ]
+    },
+    {
+      "seed": 95006,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 64,
+      "first_success_step": 57,
+      "max_cube_height": 0.8877907055469197,
+      "cube_size": [
+        0.0201505885609468,
+        0.020590883577283756,
+        0.02060372231582568
+      ]
+    },
+    {
+      "seed": 95007,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 168,
+      "first_success_step": 161,
+      "max_cube_height": 0.8887516035723382,
+      "cube_size": [
+        0.02008050250413315,
+        0.02197139441565856,
+        0.0204999192149663
+      ]
+    },
+    {
+      "seed": 95008,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 76,
+      "first_success_step": 69,
+      "max_cube_height": 0.8870130687611063,
+      "cube_size": [
+        0.020434509563773465,
+        0.020711738227499017,
+        0.02089458414178166
+      ]
+    },
+    {
+      "seed": 95009,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 135,
+      "first_success_step": 128,
+      "max_cube_height": 0.8798703150225486,
+      "cube_size": [
+        0.020960813449562132,
+        0.020814110274599656,
+        0.02139473949365556
+      ]
+    },
+    {
+      "seed": 95010,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 200,
+      "first_success_step": 193,
+      "max_cube_height": 0.8894157950441587,
+      "cube_size": [
+        0.02078805268868505,
+        0.021230219301476325,
+        0.02016669185436106
+      ]
+    },
+    {
+      "seed": 95011,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8305965940442935,
+      "cube_size": [
+        0.02035826732359681,
+        0.020293547455805326,
+        0.02059659404429344
+      ]
+    },
+    {
+      "seed": 95012,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 66,
+      "first_success_step": 59,
+      "max_cube_height": 0.8886887117915251,
+      "cube_size": [
+        0.021823940024815355,
+        0.021249442350238915,
+        0.02030095126474633
+      ]
+    },
+    {
+      "seed": 95013,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 59,
+      "first_success_step": 52,
+      "max_cube_height": 0.8894874009275456,
+      "cube_size": [
+        0.020154677570692097,
+        0.02055546538044869,
+        0.02154063144151817
+      ]
+    },
+    {
+      "seed": 95014,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 61,
+      "first_success_step": 54,
+      "max_cube_height": 0.8880610771554799,
+      "cube_size": [
+        0.02120344093288854,
+        0.020014807359264666,
+        0.02021498055144079
+      ]
+    },
+    {
+      "seed": 95015,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 62,
+      "first_success_step": 55,
+      "max_cube_height": 0.8856160393601397,
+      "cube_size": [
+        0.020371800027069734,
+        0.02068089656158021,
+        0.02108161105860753
+      ]
+    },
+    {
+      "seed": 95016,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8304058221289714,
+      "cube_size": [
+        0.02108853800285947,
+        0.020208080822517564,
+        0.02040582212897139
+      ]
+    },
+    {
+      "seed": 95017,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 91,
+      "first_success_step": 84,
+      "max_cube_height": 0.8870360203531289,
+      "cube_size": [
+        0.020527225289271943,
+        0.021486688487456003,
+        0.02011758816678381
+      ]
+    },
+    {
+      "seed": 95018,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8308320401035962,
+      "cube_size": [
+        0.020655447242817794,
+        0.021735863800216495,
+        0.020832040103596176
+      ]
+    },
+    {
+      "seed": 95019,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8314858472507404,
+      "cube_size": [
+        0.021210247901514698,
+        0.021185016296053443,
+        0.021485847250740358
+      ]
+    },
+    {
+      "seed": 95020,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8300540644321552,
+      "cube_size": [
+        0.020331321349914694,
+        0.020649883712130845,
+        0.02005406443215513
+      ]
+    },
+    {
+      "seed": 95021,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.830145294407996,
+      "cube_size": [
+        0.021916733392640896,
+        0.02023431444266465,
+        0.02014529440799594
+      ]
+    },
+    {
+      "seed": 95022,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 69,
+      "first_success_step": 62,
+      "max_cube_height": 0.8874379906843002,
+      "cube_size": [
+        0.02146193420305964,
+        0.020645549541891753,
+        0.02025576523507256
+      ]
+    },
+    {
+      "seed": 95023,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 60,
+      "first_success_step": 53,
+      "max_cube_height": 0.8887564569248848,
+      "cube_size": [
+        0.021218445055747638,
+        0.02129675323781905,
+        0.0202666914370056
+      ]
+    },
+    {
+      "seed": 95024,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 67,
+      "first_success_step": 60,
+      "max_cube_height": 0.8855545990420846,
+      "cube_size": [
+        0.021210165669908056,
+        0.021733333469848053,
+        0.02194951448230668
+      ]
+    },
+    {
+      "seed": 95025,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 61,
+      "first_success_step": 54,
+      "max_cube_height": 0.8877779968824537,
+      "cube_size": [
+        0.02094187732491856,
+        0.021633118006256263,
+        0.021437873059930695
+      ]
+    },
+    {
+      "seed": 95026,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 186,
+      "first_success_step": 179,
+      "max_cube_height": 0.8885894576968609,
+      "cube_size": [
+        0.02052461686868686,
+        0.020876289031447882,
+        0.020180333890399003
+      ]
+    },
+    {
+      "seed": 95027,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8308786878752422,
+      "cube_size": [
+        0.021671150712434147,
+        0.02177091498105805,
+        0.020878687875242177
+      ]
+    },
+    {
+      "seed": 95028,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.83138722828698,
+      "cube_size": [
+        0.021793128021728385,
+        0.021468267630989205,
+        0.021387228286979972
+      ]
+    },
+    {
+      "seed": 95029,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 74,
+      "first_success_step": 67,
+      "max_cube_height": 0.8891692528650693,
+      "cube_size": [
+        0.02022212668790101,
+        0.020486316374661223,
+        0.021140150676681645
+      ]
+    },
+    {
+      "seed": 95030,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 71,
+      "first_success_step": 64,
+      "max_cube_height": 0.8877148250234873,
+      "cube_size": [
+        0.021059292663232584,
+        0.020203025915486495,
+        0.02082613588689056
+      ]
+    },
+    {
+      "seed": 95031,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 68,
+      "first_success_step": 61,
+      "max_cube_height": 0.8834309342168516,
+      "cube_size": [
+        0.021729368056331622,
+        0.021948519248146645,
+        0.020898628714032752
+      ]
+    },
+    {
+      "seed": 95032,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 79,
+      "first_success_step": 72,
+      "max_cube_height": 0.8885650388051319,
+      "cube_size": [
+        0.020313861656919844,
+        0.020035885358589092,
+        0.020979116220055775
+      ]
+    },
+    {
+      "seed": 95033,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 140,
+      "first_success_step": 133,
+      "max_cube_height": 0.8889390870179579,
+      "cube_size": [
+        0.02132583154122342,
+        0.020612430721876535,
+        0.02051233055672977
+      ]
+    },
+    {
+      "seed": 95034,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 63,
+      "first_success_step": 56,
+      "max_cube_height": 0.8901797557511247,
+      "cube_size": [
+        0.021441128792692568,
+        0.020241542110557943,
+        0.021753132928574108
+      ]
+    },
+    {
+      "seed": 95035,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8317563663725177,
+      "cube_size": [
+        0.02116613857249976,
+        0.02187433028968014,
+        0.021756366372517707
+      ]
+    },
+    {
+      "seed": 95036,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8306540824455552,
+      "cube_size": [
+        0.020061346552138586,
+        0.02144881379616503,
+        0.0206540824455551
+      ]
+    },
+    {
+      "seed": 95037,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 66,
+      "first_success_step": 59,
+      "max_cube_height": 0.8840155055670309,
+      "cube_size": [
+        0.020502626231981978,
+        0.020571285714624448,
+        0.021076657420955224
+      ]
+    },
+    {
+      "seed": 95038,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 63,
+      "first_success_step": 56,
+      "max_cube_height": 0.8879140340319198,
+      "cube_size": [
+        0.021258112693097436,
+        0.02011212454085737,
+        0.021670754236052206
+      ]
+    },
+    {
+      "seed": 95039,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 122,
+      "first_success_step": 115,
+      "max_cube_height": 0.8861667720945925,
+      "cube_size": [
+        0.020372687391023006,
+        0.021493390599191795,
+        0.02111616074236955
+      ]
+    },
+    {
+      "seed": 95040,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 71,
+      "first_success_step": 64,
+      "max_cube_height": 0.8878910738382385,
+      "cube_size": [
+        0.0211200627999568,
+        0.02001322722763014,
+        0.020845319194390786
+      ]
+    },
+    {
+      "seed": 95041,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8300064508930329,
+      "cube_size": [
+        0.02145769369652012,
+        0.020887994296225284,
+        0.020006450893032924
+      ]
+    },
+    {
+      "seed": 95042,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 61,
+      "first_success_step": 54,
+      "max_cube_height": 0.8879631461362858,
+      "cube_size": [
+        0.02097637323071425,
+        0.020642452652325692,
+        0.021210629567185786
+      ]
+    },
+    {
+      "seed": 95043,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 66,
+      "first_success_step": 59,
+      "max_cube_height": 0.8810806159328409,
+      "cube_size": [
+        0.02024478017760366,
+        0.020320555253743003,
+        0.02025110327485946
+      ]
+    },
+    {
+      "seed": 95044,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 64,
+      "first_success_step": 57,
+      "max_cube_height": 0.8903115377725531,
+      "cube_size": [
+        0.02151527108314579,
+        0.02153638321257002,
+        0.021601339080589112
+      ]
+    },
+    {
+      "seed": 95045,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8303323800666548,
+      "cube_size": [
+        0.02045039631418776,
+        0.02171217451802561,
+        0.020332380066654703
+      ]
+    },
+    {
+      "seed": 95046,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 113,
+      "first_success_step": 106,
+      "max_cube_height": 0.8855111493843216,
+      "cube_size": [
+        0.020134913287459158,
+        0.021517623382410048,
+        0.020327635348284877
+      ]
+    },
+    {
+      "seed": 95047,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8312989036477324,
+      "cube_size": [
+        0.020620271801332295,
+        0.021885786828885263,
+        0.0212989036477324
+      ]
+    },
+    {
+      "seed": 95048,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": false,
+      "held_8_steps": false,
+      "steps": 200,
+      "first_success_step": null,
+      "max_cube_height": 0.8306105873298376,
+      "cube_size": [
+        0.021546810660374463,
+        0.02180292536112847,
+        0.020610587329837518
+      ]
+    },
+    {
+      "seed": 95049,
+      "delay_steps": 2,
+      "filter": "identity",
+      "official_success": true,
+      "held_8_steps": true,
+      "steps": 172,
+      "first_success_step": 165,
+      "max_cube_height": 0.8904701664123399,
+      "cube_size": [
+        0.02179737260198055,
+        0.02065180138735994,
+        0.021267246501721043
+      ]
+    }
+  ],
+  "complete": true
+}

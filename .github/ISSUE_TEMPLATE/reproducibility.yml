@@ -1,0 +1,38 @@
+name: Reproduction report
+description: Report a successful or failed reproduction, installation, or record check.
+title: "[Reproduction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Both successes and failures are useful. Remove credentials, personal paths,
+        private hostnames, and unrelated information from commands and logs.
+  - type: input
+    id: version
+    attributes:
+      label: Commit or release tag
+      placeholder: "git rev-parse HEAD"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, CPU architecture, Python version, and which dependency specification you used.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command and scope
+      description: Installation, record check, tests, selected replay, or full experiment?
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed result
+      description: Include concise sanitized output, even for a successful run.
+    validations:
+      required: true

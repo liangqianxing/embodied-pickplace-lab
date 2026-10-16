@@ -1,0 +1,9 @@
+{
+  "replay": "replays/bc-17-clean-95000.json",
+  "seed": 95000,
+  "training_seed": 17,
+  "official_success": true,
+  "held_8_steps": true,
+  "display_fps": 10,
+  "control_hz": 20
+}

@@ -1,0 +1,2712 @@
+[
+  {
+    "file": "replays/raw32-17-id-50000.json",
+    "sha256": "ca969dbc55078853a4b6650dbb73220a771fe2d5578fc0251bab5325f1c741f8",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 51
+  },
+  {
+    "file": "replays/raw32-17-id-50006.json",
+    "sha256": "cfddf3cf05ecc1fa83c2367eef2de48ebfbb597cfeb331cf31679f3257a14317",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50006,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-17-position-50002.json",
+    "sha256": "9133301242a186af5b57fa250087dfaaf7b1962615eaee9f1a493013afa0ae87",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 57
+  },
+  {
+    "file": "replays/raw32-17-position-50000.json",
+    "sha256": "bfb4879db277c84a28d350edd460d911bd9d523e5e22630677520ca65d4fb637",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-17-sensor_3mm-50000.json",
+    "sha256": "f5546ada9fe24d7c713c481e59487f87586839bc356be1eea596348f90ef4baa",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 52
+  },
+  {
+    "file": "replays/raw32-17-sensor_3mm-50010.json",
+    "sha256": "fdfaf82718561cd5eb3410a355ec53cdf5fb2a6dd34718215cb44f5397205251",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50010,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-17-delay_50ms-50001.json",
+    "sha256": "998c3afdeab9c7636506a48a36355ea93eb65d8b1257d6ffbe0e71dd835d6c3b",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": true,
+    "frames": 91
+  },
+  {
+    "file": "replays/raw32-17-delay_50ms-50000.json",
+    "sha256": "ba67c7390b0bfd33cd820e138e3aefa7a2181777042ab7d10f4d192bcc08b639",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-17-dynamics-50000.json",
+    "sha256": "e978999393a85ecd2b1c49b1e3df35d7386d71739792213222c45fb2a5a05b5a",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 51
+  },
+  {
+    "file": "replays/raw32-17-dynamics-50006.json",
+    "sha256": "c4d548d24b2eefa02897268140cafe311910e706d29505b42ee6677122aaf62b",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50006,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-17-combined-50002.json",
+    "sha256": "3651e5196a83aff0706918af5128bce930c95d70713301d876d651e2b14bd1aa",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 125
+  },
+  {
+    "file": "replays/raw32-17-combined-50000.json",
+    "sha256": "473a05157400ef8756a378ad4cb692724ed3864c38beaf5554967fb46123bb3e",
+    "model": "raw32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-id-50000.json",
+    "sha256": "747c4435f61a3622be2f2dd9e902f7eeb97fd56dacf788ccda41c970377965f7",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/relative32-17-id-50014.json",
+    "sha256": "0ea4f42054324c5923c84e483118f9abd3eb751221af1ac4f120785bc02595c3",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50014,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-position-50001.json",
+    "sha256": "62bb3aff55a5b5732e8899d7889d26cf4e4a015e62bbdc253baa5da97f4cf8ee",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50001,
+    "success": true,
+    "frames": 78
+  },
+  {
+    "file": "replays/relative32-17-position-50000.json",
+    "sha256": "752fddcb37dd70319938392eba1ca152d2e0e9578dcb2a4c7af5454a3fc38ef5",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-sensor_3mm-50000.json",
+    "sha256": "4933fddda8973390e9c124283aa4ce07157bb547147b0d88f4126327b923205e",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 124
+  },
+  {
+    "file": "replays/relative32-17-sensor_3mm-50011.json",
+    "sha256": "9bc6d4dcb9a7e40454ee1baad5a02fde7a01c99f12319cf008fd9b289f63884f",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50011,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-delay_50ms-50000.json",
+    "sha256": "b9488b2317d3b6f0b3ae3c30b7ae33cad53efe7e7c3a70b2c0eecf1cdd0eb358",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 73
+  },
+  {
+    "file": "replays/relative32-17-delay_50ms-50004.json",
+    "sha256": "add94201fc736d527e7acec0f6de5c62dafddbd735c8ab8e52c548de3d603f22",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50004,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-dynamics-50000.json",
+    "sha256": "0eb6449166993c1f7d7bcf521b11691a1fc578adf7baedb964034be8bfa9f794",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 61
+  },
+  {
+    "file": "replays/relative32-17-dynamics-50001.json",
+    "sha256": "4253c9e2455eddd390dab648877bf5eb87153d44b2ebbb7fe7b0dce9decff984",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-17-combined-50002.json",
+    "sha256": "651881157f77ef3ee77f1ee3ef8d3faec5e4e42324e8be7818e23d98e5b9661b",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 101
+  },
+  {
+    "file": "replays/relative32-17-combined-50000.json",
+    "sha256": "053b58b1bb47261b7f7cd59cdd51696f9d129bea826e2ea6f56fcb5bf93e448a",
+    "model": "relative32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-id-50000.json",
+    "sha256": "05bda95442ba287fd60c8c57e06213c1d3aa1b3810cf56d765eb81af0fa8a6ea",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 57
+  },
+  {
+    "file": "replays/noise32-17-id-50052.json",
+    "sha256": "261bac959db2473787fe9c1d2fcca22c058574e964fdbdf169f5e49112b7f2e5",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50052,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-position-50002.json",
+    "sha256": "af09a618d61de08efedde9339350ab74590f5eaea9d62f18eeed7c541197c93d",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 58
+  },
+  {
+    "file": "replays/noise32-17-position-50000.json",
+    "sha256": "06e08b0a98b9d6cbe67c0939f41ba9b2c5d72cb7751a17937126eb4e52bcdfbf",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-sensor_3mm-50000.json",
+    "sha256": "22370e9e1d25055afc4cefc7d2466f6710cddbec9ceb6f13eb29419380207510",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 57
+  },
+  {
+    "file": "replays/noise32-17-sensor_3mm-50052.json",
+    "sha256": "ab23ec3139b18ac4488d3b7c59b16d0b0fc7115e8e739add6e49d8c149aaf08e",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50052,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-delay_50ms-50000.json",
+    "sha256": "0e6c2d73a8249179f6e34dd3e3ae9571700c91596ae12e3009fb2b6998e1c670",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/noise32-17-delay_50ms-50003.json",
+    "sha256": "cbab4843161e0eade585848d2ad94c0404b221de97a8d919207707ec7d1beddc",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-dynamics-50000.json",
+    "sha256": "e36cf1ed702b78654ac51c386000d9820a0854a72c010992f0c99b111cc1582e",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 57
+  },
+  {
+    "file": "replays/noise32-17-dynamics-50052.json",
+    "sha256": "4399a95a44f8361652e8c87e535da9266c433b41ec257766c1b2199529fb9cff",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50052,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-17-combined-50004.json",
+    "sha256": "383b1b0c71e8f2e460d40683c8056226ece2f98ec25ac392cb216babd8622f90",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50004,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/noise32-17-combined-50000.json",
+    "sha256": "33d23bf13a16c4eff00663c38f4e0728ca0366ed2f72cbe53fba733435fecf74",
+    "model": "noise32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-id-50000.json",
+    "sha256": "71c63f846a7a51d736fc4007ef8b26fb6d2fdabc640dccc42e3808568d27ea3f",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 54
+  },
+  {
+    "file": "replays/relative_noise32-17-id-50077.json",
+    "sha256": "8fa7a57722103bf52f2209f1d8c57a8033bc80f85216b1f67f4ef15b6d78df29",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50077,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-position-50001.json",
+    "sha256": "701369f9b9c5cf997e7bd0543186425325a959407e719734ac6309e42a4b9028",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50001,
+    "success": true,
+    "frames": 104
+  },
+  {
+    "file": "replays/relative_noise32-17-position-50000.json",
+    "sha256": "41882d18ef4f9fa974a94089069aea1b5ec70d0880dedc292ba7317245a734ce",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-sensor_3mm-50000.json",
+    "sha256": "e486e916bb6008a1ba3fbfcf8023ae6e313cc87a3622a1993a10fa9a6212cb7b",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 54
+  },
+  {
+    "file": "replays/relative_noise32-17-sensor_3mm-50067.json",
+    "sha256": "d410b37321d59ea46de055d115e1866ae9ad764e02556182ec137930de01c684",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50067,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-delay_50ms-50008.json",
+    "sha256": "5f6b5dff057a39787b712af2b3bbad851edbbb60e21bf2415c98af4beee1479c",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50008,
+    "success": true,
+    "frames": 59
+  },
+  {
+    "file": "replays/relative_noise32-17-delay_50ms-50000.json",
+    "sha256": "cade8cfe30fce03e41f669437452cfb20f48ce0e261da3392359c8ad038282f1",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-dynamics-50000.json",
+    "sha256": "6f36d275e0c8cfd63150db4f2a75d4bce6a2a05dbc21e1308caebb1fdb399015",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 54
+  },
+  {
+    "file": "replays/relative_noise32-17-dynamics-50039.json",
+    "sha256": "7b43d8a4a70ab267b43d4e36b5dbe6d02e618251e811a5103d04fdb73153f250",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50039,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-17-combined-50016.json",
+    "sha256": "a6f320fe8b9e8a83453252745ef85f15710d3ee93876c5473ec543eb9269e407",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50016,
+    "success": true,
+    "frames": 84
+  },
+  {
+    "file": "replays/relative_noise32-17-combined-50000.json",
+    "sha256": "9ebc3a6415ec881ce430aefd272da8ec75f50550d3079a506755fd40a547d2ff",
+    "model": "relative_noise32",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-17-id-50000.json",
+    "sha256": "ecab80af371d83934861e7c4d52b38343b89d3443e890af9ef8c32f071692fcb",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-17-position-50000.json",
+    "sha256": "04ae3ba382466ac24a79dfffc1cdcf4ea6c4e7b38f2f20e2d1907e417c82dc1e",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/raw256-17-sensor_3mm-50000.json",
+    "sha256": "882d79286a89c503ac9fb8f5717fd29b9abd4ae36fc29b52e199f7f1c5853261",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 53
+  },
+  {
+    "file": "replays/raw256-17-delay_50ms-50000.json",
+    "sha256": "509fe7203aae77eb3c6016231a119312fcd9f16f6433f8cb44305971d4553ae1",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/raw256-17-delay_50ms-50005.json",
+    "sha256": "7d2b542ca7facab9bcc28acf612ea94330c3fa13e8f11b313594894368c817f2",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "delay_50ms",
+    "seed": 50005,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-17-dynamics-50000.json",
+    "sha256": "2ef6c0f55e8f0ab7b961fe065e4c835a1e142ee27151d527207aa8a6808a090e",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-17-combined-50000.json",
+    "sha256": "c080a5a1390caf5e6a4fe22fb8a6e94e02617e4c49642fab6a07fb77d567aae3",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 83
+  },
+  {
+    "file": "replays/raw256-17-combined-50001.json",
+    "sha256": "550f17f58e54d90aa4de002bf1a1ef0d9f7e3c02789d39d9167d2bf20a838369",
+    "model": "raw256",
+    "training_seed": 17,
+    "condition": "combined",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-29-id-50000.json",
+    "sha256": "dd55681feb25524c7ce27e3f33e4a88916dcd961f47e597e32849b7c5da0f058",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/raw32-29-position-50002.json",
+    "sha256": "6288c57f59bf8dde24ba0c498a4e5b6cd2930b64c5c365c5ee570ae2a9c0b00b",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 77
+  },
+  {
+    "file": "replays/raw32-29-position-50000.json",
+    "sha256": "d25982bc2ae7a75110d552e5674fec8f2ec964e43a713dff11df2c92e2364e52",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-29-sensor_3mm-50000.json",
+    "sha256": "c6b5a35e225cee7ea30a54c7f8f18ffe0adb21868f038b3b6c901925063b0677",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/raw32-29-delay_50ms-50000.json",
+    "sha256": "f2acfded84b9b903cdfb0eff7b37807bfca81a29e4ff1ff6134fb73e4ef519da",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 76
+  },
+  {
+    "file": "replays/raw32-29-delay_50ms-50030.json",
+    "sha256": "808bd1390bce3efa7745591891d6bc470da5ec9a1d71687ff597f234cf6ec8d1",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50030,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-29-dynamics-50000.json",
+    "sha256": "26568706a114ff3cde8172e15ed6153c29719e3608a6b42ce64b8872c2598194",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/raw32-29-combined-50004.json",
+    "sha256": "2f9186178bab1c86756cee2eee27a74716bbf470da896effe15a24c3fca4cec9",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50004,
+    "success": true,
+    "frames": 72
+  },
+  {
+    "file": "replays/raw32-29-combined-50000.json",
+    "sha256": "5c64927ea0a62c6ab1f8096575e91de3274ff988becbd262d1008e2fe189b53e",
+    "model": "raw32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-id-50000.json",
+    "sha256": "a2e76e2174eaf15ba16c8e2cf837f219f222b9342d6674e97dd32cfb1b5685bc",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/relative32-29-id-50001.json",
+    "sha256": "6dda53db714bc7c34f079be4dd3510ba393fc074a0bb1f18266e645d830a4c96",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-position-50000.json",
+    "sha256": "5705d121f8a98cb75ebaf13a664aff5af4524ebfedc62801f27e27b641bd1b19",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 71
+  },
+  {
+    "file": "replays/relative32-29-position-50008.json",
+    "sha256": "c535d612b83a8e154a5d4535d36d2927946ca8b5d2af51c0003b270dae6590f5",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50008,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-sensor_3mm-50001.json",
+    "sha256": "0b46852e46e325ab29dc10e0e23a44fdae5d948111cdb9f594f1adcee486687b",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50001,
+    "success": true,
+    "frames": 205
+  },
+  {
+    "file": "replays/relative32-29-sensor_3mm-50000.json",
+    "sha256": "cdda914f666c17a80eb365887ce9241820888d4dfc0eabca5b6f12de29eef77c",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-delay_50ms-50000.json",
+    "sha256": "04783531b3cbe7c6815ffedc55bbd1ffd9a3293995d63a7d66136de582a55567",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 72
+  },
+  {
+    "file": "replays/relative32-29-delay_50ms-50004.json",
+    "sha256": "0dd3a7c6e5edf8d6484b78ffaafe11473e93046c09c614c3ab9835ece75072d8",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50004,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-dynamics-50000.json",
+    "sha256": "15e0f64df3de1946c6f39968e38530502c81fb03faf5719a5ef13baebc933e53",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/relative32-29-dynamics-50001.json",
+    "sha256": "3bfbdc0bcf417d60cbadd18676d68b5e731719c563b443b6ae8fab6a56df51ca",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-29-combined-50000.json",
+    "sha256": "c1e65cf29e3a2fe0fad873533eb1111377eaa5fda821fc07a141b675c7f9d0ce",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 111
+  },
+  {
+    "file": "replays/relative32-29-combined-50003.json",
+    "sha256": "0874bbf5f58e914aaf16c5c02cdffe5cd3ab6009065105e80d63819d64c74e37",
+    "model": "relative32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-29-id-50000.json",
+    "sha256": "6ce006d81d3d594f623e84b7487ae6d6572c7fe2823c2cd13b5c69b749e227c2",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/noise32-29-position-50002.json",
+    "sha256": "9297150d8431fdb32d0ca17f7101394ac19f8f9839f60394e3c3ebd9c5410a31",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 52
+  },
+  {
+    "file": "replays/noise32-29-position-50000.json",
+    "sha256": "0503f01a119d49b92a04b7fab21ce55e64beffce4b53a6b9815665bb766fe52d",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-29-sensor_3mm-50000.json",
+    "sha256": "3a8b32aa15da3ecc004bfa8178759784c0bf09407ad9f260199befb38cf45a02",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/noise32-29-delay_50ms-50000.json",
+    "sha256": "9523c6d16c74456089628f45c6f0bebc8a7a2ba6364ab5ac420d26550b05e861",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 55
+  },
+  {
+    "file": "replays/noise32-29-delay_50ms-50003.json",
+    "sha256": "bbb9c1a3f6909546949b5d720044be8f8e5feb8bd8870518c17c752282aadc01",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-29-dynamics-50000.json",
+    "sha256": "512c7dfff47d2ed36b50a943592ad6257a3daa4cecd5745324e9079b77143732",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/noise32-29-combined-50002.json",
+    "sha256": "a9a7ba506c038199a62f505ebd18013cf3259d192897791ac1f45070cc97ab11",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 68
+  },
+  {
+    "file": "replays/noise32-29-combined-50000.json",
+    "sha256": "97dbf84513f032100ac322a43f697017c04238c39a30a2ee5befc762aca920d8",
+    "model": "noise32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-id-50000.json",
+    "sha256": "68429f553a69cc7ce83e532264d933180e43f2161f99aac39fb2ede56579d978",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 61
+  },
+  {
+    "file": "replays/relative_noise32-29-id-50012.json",
+    "sha256": "086baa5e54d1bb1b2b4c9dfe60e2219d157ed8f3cd4d87a9fbb66743976dea2b",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-position-50000.json",
+    "sha256": "acb3ed52b6c99363d1e87995a3842c31f3a8d974aa1238b11490e6ed0ac8d0c2",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 71
+  },
+  {
+    "file": "replays/relative_noise32-29-position-50001.json",
+    "sha256": "bb7edfce8d4dcaa61ccad9f28afdf0a3b32ac9a38e751fa096a29eab6d0f5db5",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-sensor_3mm-50001.json",
+    "sha256": "2791326300b4ca15bad701165bcbab8fc79665b194418af3bb921463e7d75a16",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50001,
+    "success": true,
+    "frames": 94
+  },
+  {
+    "file": "replays/relative_noise32-29-sensor_3mm-50000.json",
+    "sha256": "0e5854821f7b679a0608529f8cd90f94b9c714a8b80204b0d5b095e8dec715f4",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-delay_50ms-50000.json",
+    "sha256": "95db5573b266491776414c990941c0643c9cf0704fc3dc250af32f0872c8f8f8",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 77
+  },
+  {
+    "file": "replays/relative_noise32-29-delay_50ms-50020.json",
+    "sha256": "678f930cf36fa8c0ff4507e59845b817f64d2563c74d021dec1c7b97f5f9e0fb",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50020,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-dynamics-50000.json",
+    "sha256": "93627e1c7b8ff3be198f5bbdb521b5d1403cc9c0a98d73566422d82fbb282723",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/relative_noise32-29-dynamics-50009.json",
+    "sha256": "5bd2047df8492f04a7dad6d93a7417de4f49d752b09a850ea673f61162fc5f25",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50009,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-29-combined-50000.json",
+    "sha256": "2973c65f723ab3c1498bf84423b7b03a32dd4603ad572504b2dd099616f75a36",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 114
+  },
+  {
+    "file": "replays/relative_noise32-29-combined-50003.json",
+    "sha256": "5197e44015c94ed31e134d2ef556b13ccfc97b80bbb8f2d349581c3b2f5b6aec",
+    "model": "relative_noise32",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-29-id-50000.json",
+    "sha256": "fec588eda184e35718bc06ad360e6480cb9f89a42c714d87c98c997313bae88e",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-29-position-50000.json",
+    "sha256": "83c49d9f1a9b690b43bceee74b76488c9ff6de123df886a42f7ece7220d164ef",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 69
+  },
+  {
+    "file": "replays/raw256-29-position-50038.json",
+    "sha256": "b1ea9ead7addb4e323367a4f22ef3708462b2da20f9358ddef7589778a273883",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "position",
+    "seed": 50038,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-29-sensor_3mm-50000.json",
+    "sha256": "c57622a1364b7a18de710d1337a50dbfee17701d788ad0bff4b6c50858b753eb",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 55
+  },
+  {
+    "file": "replays/raw256-29-delay_50ms-50001.json",
+    "sha256": "d62f3b336b7d4dba2613de69406b901d9ef9e1390ea92e641cbff27f9943a3d1",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": true,
+    "frames": 68
+  },
+  {
+    "file": "replays/raw256-29-delay_50ms-50000.json",
+    "sha256": "744aa358846efcfe2d7348627437e3146bf7da31c4098ef21348e00bc3910eae",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-29-dynamics-50000.json",
+    "sha256": "caba5e09d6f33032ef56d0547a38eb076fa96a81a2b8f4445b74ba84d14dc1ba",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 57
+  },
+  {
+    "file": "replays/raw256-29-combined-50000.json",
+    "sha256": "d9f591afc775257a4f4463456ca2b8346a3814ba93ebe975457303178d90c0a5",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 84
+  },
+  {
+    "file": "replays/raw256-29-combined-50004.json",
+    "sha256": "595df5de2bf7aab75560c59e8df3da812be9ad0decc816fbfede974236c7ecb7",
+    "model": "raw256",
+    "training_seed": 29,
+    "condition": "combined",
+    "seed": 50004,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-43-id-50000.json",
+    "sha256": "491bf6cf77f2c2d4be82a707711390e66b5c4444dca752c920d8c23803ac6483",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 58
+  },
+  {
+    "file": "replays/raw32-43-position-50002.json",
+    "sha256": "82d3282cea55810b2954ee2694d9e07f416dfa702449fb95ce5f624c2037b789",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 61
+  },
+  {
+    "file": "replays/raw32-43-position-50000.json",
+    "sha256": "412a4674d90a7e820652aadca2824f7826b558e183aef9bfde9921f5fac7ed4c",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-43-sensor_3mm-50000.json",
+    "sha256": "c2a700b90c375390297d7229b5e45c9d9ae0662b26f868d4072ad705b087ff7f",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 59
+  },
+  {
+    "file": "replays/raw32-43-delay_50ms-50000.json",
+    "sha256": "ec3f0aae7cec6930b76ddc53b19462e493eca098e3afafd7e76dc82c0741992e",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 74
+  },
+  {
+    "file": "replays/raw32-43-delay_50ms-50001.json",
+    "sha256": "5f23b19ffa4351c2e5ea8b84983b42be93e4afd0b8aa1d14ae6a131c66e5f0e8",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-43-dynamics-50000.json",
+    "sha256": "9d2496ef52aabcb4ae0cff23fdeb67255d5a33684fb3ccd5b404d4a67c85d39c",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 59
+  },
+  {
+    "file": "replays/raw32-43-combined-50000.json",
+    "sha256": "e9f6ab3e7fd8317305518f0c6b7ce655df365518148d969c4c37e7c1847dc9aa",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 117
+  },
+  {
+    "file": "replays/raw32-43-combined-50001.json",
+    "sha256": "9487038f1296a012b4727f3fef31cf90e23c11baf0cbebddd362422bc72be138",
+    "model": "raw32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-id-50000.json",
+    "sha256": "ec8eda2af13969933d6b73b00ea3c1f441bee54de9bb4a4b730fa56c77ab1644",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 75
+  },
+  {
+    "file": "replays/relative32-43-id-50066.json",
+    "sha256": "e24ca46ebd8c5fd12725772d6d48c90d17da052014c3cd4d8918713e5d0a3618",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50066,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-position-50000.json",
+    "sha256": "5bb6d3bb271081e4f6505e5cadd46df6263b70fe8fb562fa4408ab5dbefb4608",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 75
+  },
+  {
+    "file": "replays/relative32-43-position-50001.json",
+    "sha256": "590f8811fd29551256f69ed843121a1c8bc4890b46945bc1f6d557828d90785a",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-sensor_3mm-50000.json",
+    "sha256": "1eaca68063c6cf2994b7c8a55197f9ce9e055e0158559bcbd363e3fbd146f676",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 139
+  },
+  {
+    "file": "replays/relative32-43-sensor_3mm-50022.json",
+    "sha256": "8884897700b04ace73c35c374e37e183a5439ac155df9cd46c83a739b8c0c5f4",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50022,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-delay_50ms-50000.json",
+    "sha256": "e456bee9376530d2d959676e66859c3668740f35508dcb566c3155aa5009a3f1",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 100
+  },
+  {
+    "file": "replays/relative32-43-delay_50ms-50003.json",
+    "sha256": "25e37a1e111a7b86eb762eb8d91141b547af005bddcf4aaf8158e7e236369e0a",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-dynamics-50000.json",
+    "sha256": "a042c5d8d6aec6b7a06ba56247591f5ba0ade3ce18ebdb1d4d535bc5d065cc9a",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 75
+  },
+  {
+    "file": "replays/relative32-43-dynamics-50012.json",
+    "sha256": "317aa217faf8bd7f2185b8906f3885b94e5de669a1cb0d1cbdaf67ce4b9aee58",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-43-combined-50000.json",
+    "sha256": "852153e64627f410b4b7a2483cf2313597d3e51a84613dc2cc1e93d447284a43",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 98
+  },
+  {
+    "file": "replays/relative32-43-combined-50001.json",
+    "sha256": "86407ce1c9c792d0dcccf3bf7998c283d4a4ff41a1c23ec09d3b3854e9a1e108",
+    "model": "relative32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-43-id-50000.json",
+    "sha256": "c19021c1bcce99105fd48ae6abcd1434c5e720be809b35aa1431dee54de32727",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/noise32-43-position-50002.json",
+    "sha256": "dff74d71e2e1692549fa817b28fd269fe5cc8c392d84a0b53bca0cfdf8efd428",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/noise32-43-position-50000.json",
+    "sha256": "d26005595ac980222c2de5d27fa74a75fc9e557069115341065c4659f4aeb14b",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-43-sensor_3mm-50000.json",
+    "sha256": "8e7cf376ba18a6a9f37b5bd3352dda2494cfcd940c5b53c96261deac25bb90e9",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/noise32-43-delay_50ms-50000.json",
+    "sha256": "f6c30b3f2617cd99b8a3818aa13e9a06aa84a1c1749bb0dcf24547a330ca5443",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 80
+  },
+  {
+    "file": "replays/noise32-43-delay_50ms-50004.json",
+    "sha256": "f09f6c569351bc8fb1b74d4a358244fe794d47f1026cda1d7ef06cb9cb476a89",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50004,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-43-dynamics-50000.json",
+    "sha256": "19055d85cdd0a0952868f2a271f2db54e78c3146d2d5772c285b688e363bd455",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/noise32-43-combined-50000.json",
+    "sha256": "9a3069acc5ad64874c0474be20d6f98f710397799c3b5a4c69ad51af70c89f81",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 140
+  },
+  {
+    "file": "replays/noise32-43-combined-50001.json",
+    "sha256": "4f284a0a9314c8f6cee64a5883644d2e4cdf7fc69cf5a53adf19460d98791b63",
+    "model": "noise32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-43-id-50000.json",
+    "sha256": "e33d29fd8e00954929233ad943d5d981d0d10fb32330c46af1dfd440a068369f",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 80
+  },
+  {
+    "file": "replays/relative_noise32-43-id-50038.json",
+    "sha256": "e2372cc0b4a572a5004964b4c1baf3941229b1f3a2e5513c2b3e84f2b503c063",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50038,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-43-position-50002.json",
+    "sha256": "62a59c5d92197092fa0b80de4a84e39019c170b3515af8d48281418ee3f64755",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 80
+  },
+  {
+    "file": "replays/relative_noise32-43-position-50000.json",
+    "sha256": "24030923eb629d7bf82fcabf47310446370cd9f03f6e743851486fdab7bd3bac",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-43-sensor_3mm-50000.json",
+    "sha256": "ae4c61fe10114f6872b40e3d14bb65ad6eb6f403f07793853bad77eab4221532",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 81
+  },
+  {
+    "file": "replays/relative_noise32-43-delay_50ms-50002.json",
+    "sha256": "f95ac2d826092c5b4322824be0d0911bdeb8ab9f37bddbfdb13285b1bb571315",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50002,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/relative_noise32-43-delay_50ms-50000.json",
+    "sha256": "a0a0c342da08d565f6c8420298896374a387f724f4bee8baace72a0511c18b56",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-43-dynamics-50000.json",
+    "sha256": "c3cbc433285abeb98a7bec36040fe2792d85d246d9ccec39e8824b82bc5e8886",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 81
+  },
+  {
+    "file": "replays/relative_noise32-43-dynamics-50045.json",
+    "sha256": "93bfa6b66407543b413ba94c5abf30076451e6286878a8049885cca823290b7a",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50045,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-43-combined-50002.json",
+    "sha256": "e2e5cfda5334531a1b798bf4d557cab47c37db11c8bfc597a40a3495ff968ffa",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 73
+  },
+  {
+    "file": "replays/relative_noise32-43-combined-50000.json",
+    "sha256": "2e0cd016c97d3468ce5a1ea3a85f18e6d4de36550a321c6cc3f6d75a28021d4b",
+    "model": "relative_noise32",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-43-id-50000.json",
+    "sha256": "ae748fdf2f82199378d116bebfb2746e5eb6bfd647d35a867c8052969bae5cb6",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-43-position-50000.json",
+    "sha256": "63de44adf49b532904702da2af23583e6536d0172e81e8190656635bdf3b2e46",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 66
+  },
+  {
+    "file": "replays/raw256-43-sensor_3mm-50000.json",
+    "sha256": "d79e84ce26080e4b9bbebdec721a180a66c494c48f2c3740c151e556d8ad04a6",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 72
+  },
+  {
+    "file": "replays/raw256-43-delay_50ms-50000.json",
+    "sha256": "a1d268acf0b446ba744d8297acc6f16d35ec744a0789ff0393fed8fea3316947",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/raw256-43-delay_50ms-50006.json",
+    "sha256": "fa92f4d1e86f1727ab17eb00867a0ffed19bd20754b91bcdda2425cfb09caedb",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "delay_50ms",
+    "seed": 50006,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-43-dynamics-50000.json",
+    "sha256": "06a55166e3643a49c400d300be6031aac3fe42bff492ece127736aef44d91fdc",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-43-combined-50001.json",
+    "sha256": "b9e45067ac607789d6ca1ae0e93636ca03dbe691c89129be1755123dee660113",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50001,
+    "success": true,
+    "frames": 92
+  },
+  {
+    "file": "replays/raw256-43-combined-50000.json",
+    "sha256": "1c789ef16dacc58aceec5dbf70987e473883b8b0e5281f0fc3671edaee48385d",
+    "model": "raw256",
+    "training_seed": 43,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-id-50000.json",
+    "sha256": "2b695d488615b0860d1b4454901dd9a93fbe2e4ff8cbf4039f15ce380e27b64a",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 51
+  },
+  {
+    "file": "replays/raw32-71-id-50015.json",
+    "sha256": "6f252c1fcc9f98e1257af2965d5f2fb2652efb3d4b886991d83f1df58fac4607",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50015,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-position-50001.json",
+    "sha256": "5eb3cd0dede2fdefd1af2051750c23cfa62004d1acf6d1419389428630202ad5",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50001,
+    "success": true,
+    "frames": 81
+  },
+  {
+    "file": "replays/raw32-71-position-50000.json",
+    "sha256": "59cdd9f4eb4cbe5202e33a44f2a0df2601b8554200e7c370c5c356246297f125",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-sensor_3mm-50000.json",
+    "sha256": "12222b44a4d0dfb9c508a08fd1742718d126e274a63fed2837e28600d009cb5d",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 52
+  },
+  {
+    "file": "replays/raw32-71-sensor_3mm-50024.json",
+    "sha256": "aa5f4b864054fdee8121602acc511b1e5dd831589881da6bead1bbcad0f625dd",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50024,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-delay_50ms-50000.json",
+    "sha256": "9d29a7bc77656f1610033abf56a7b8b69725daed715d7ef43c10918163393bd4",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw32-71-delay_50ms-50002.json",
+    "sha256": "2205b88c588196b1183c8b11f12e63b6605c655f86aa3dec72cc089e39047452",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50002,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-dynamics-50000.json",
+    "sha256": "c5860debdec25fa471310172c33d86293074fff5021e7e47640dc013844ce7a5",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 51
+  },
+  {
+    "file": "replays/raw32-71-dynamics-50015.json",
+    "sha256": "62d219b7b01a78751936f16ccce28e224d5fe17adf5c85d57227544509c1020f",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50015,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-71-combined-50001.json",
+    "sha256": "2fb9f66ec565b1c780ea19289033dccf40b6dc244201f438a31a8254a7ce99cb",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50001,
+    "success": true,
+    "frames": 93
+  },
+  {
+    "file": "replays/raw32-71-combined-50000.json",
+    "sha256": "c738df9dce5cdb1c0eb192d74276d91da27dd6b00970af25a088ae8a59bd9252",
+    "model": "raw32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-id-50001.json",
+    "sha256": "2548b06607926decb58f566ab4617e15a2b72fae78a3e95d6ba7261e9e0e8b87",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50001,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/relative32-71-id-50000.json",
+    "sha256": "b6be27793ad782e51fd4bc4265cd58611999e8a2f6a90f2cd5528ffcb290aad8",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-position-50001.json",
+    "sha256": "b90407ea6b1f17247e478d69239daf0f8f3f49eff383fbd6c7e2c5f466feee3e",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50001,
+    "success": true,
+    "frames": 76
+  },
+  {
+    "file": "replays/relative32-71-position-50000.json",
+    "sha256": "e7c172ea378f7b35616c0fb031bd9e8da95cfb028388971feb0f6fb27a708f93",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-sensor_3mm-50000.json",
+    "sha256": "2054d6d3a40d4bfcef3abad6d4a66fc3716d0f0a6961fbec8d044377ff182283",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 66
+  },
+  {
+    "file": "replays/relative32-71-sensor_3mm-50009.json",
+    "sha256": "cb9e4aa2d158c189554ae22727eb36ffe9943b2fbb617034154c96f51581948e",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50009,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-delay_50ms-50001.json",
+    "sha256": "2f677388bc68310198402f74ce4365d603c429d33a22579dacf8d635feafe93b",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": true,
+    "frames": 84
+  },
+  {
+    "file": "replays/relative32-71-delay_50ms-50000.json",
+    "sha256": "1b50249f8bbb2491888c79850d3cf977481053c8acf981e759a801baa426c134",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-dynamics-50000.json",
+    "sha256": "822c46bd264d4dc8ee9892190706a99866d711d8a438ed54af94ecd817298b5e",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 68
+  },
+  {
+    "file": "replays/relative32-71-dynamics-50006.json",
+    "sha256": "e28a146f7f9e074694c2a0053203102055ff2b551ec69a4181ae808821853e0a",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50006,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-71-combined-50014.json",
+    "sha256": "de10c90b672c5e2959b5e276db96a793f06b9f3e1d6de1bf21ec08c9a5a3b7cc",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50014,
+    "success": true,
+    "frames": 97
+  },
+  {
+    "file": "replays/relative32-71-combined-50000.json",
+    "sha256": "40c4c2f55bd9fc7493816020e3871a44b39643e3259f40c8d636d1927e8321fe",
+    "model": "relative32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-id-50000.json",
+    "sha256": "a63e0129ba154970c7fc83084f70da145567464abc65e65ef66308f6eb465aff",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 50
+  },
+  {
+    "file": "replays/noise32-71-id-50015.json",
+    "sha256": "69b7ff53734d7d221ec3a5504ff39aa19233f5af5c0d5772cadba3fc7b6bacb4",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50015,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-position-50000.json",
+    "sha256": "0bbd189e80f41c083733bbf34e200ff3c2c1842d8a3b4e21707393df36f9224e",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 103
+  },
+  {
+    "file": "replays/noise32-71-position-50003.json",
+    "sha256": "1029b20c38494526c309ac4f9ed7dd5959b73c357d4a54cf564ea378e3bb29d6",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-sensor_3mm-50000.json",
+    "sha256": "0798792197f172afba6fb573f3c05bb9ee053ccdb059d34d936348b792b3780c",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 50
+  },
+  {
+    "file": "replays/noise32-71-sensor_3mm-50015.json",
+    "sha256": "20f9832f3ce42c2d5f2f6615819d98142fc50c5a53324fea06e4314bcba91898",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50015,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-delay_50ms-50000.json",
+    "sha256": "b42570c3140892a12d578389060af447bee0f4558ab0561280f937a48e321fe9",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 55
+  },
+  {
+    "file": "replays/noise32-71-delay_50ms-50024.json",
+    "sha256": "ba949576c9160c891199d03afb461b26d1e2277928ef29a3f9992e3f9a0ecf4e",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50024,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-dynamics-50000.json",
+    "sha256": "f530c6d20a42ff695eb36314836683d6632a82f440d24a2807566e2f1beff470",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 50
+  },
+  {
+    "file": "replays/noise32-71-dynamics-50015.json",
+    "sha256": "527b34159d2caa97f1c8155391bdde21b104a7105583126ba67f1196b1c4841c",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50015,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-71-combined-50002.json",
+    "sha256": "d8275d2f5a23575aeee4fe595145383b67ee1f53b4d58e278e3969cd5ff2fdfb",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 71
+  },
+  {
+    "file": "replays/noise32-71-combined-50000.json",
+    "sha256": "48312e0965e47fa90623ef6e6f675c18ba8fe9855bd3546b9462b2b8ea25b721",
+    "model": "noise32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-id-50001.json",
+    "sha256": "81bdd8a9b37a0d00088818518ef2a3b1de3f531484273503c89d5ca87c32dbc3",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50001,
+    "success": true,
+    "frames": 65
+  },
+  {
+    "file": "replays/relative_noise32-71-id-50000.json",
+    "sha256": "79b09e60f49724ebe01fc8d1dd676d61b54a58ec4725d1ee2a93cab522963eb9",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-position-50001.json",
+    "sha256": "96fd6acfa22bd8d3b19868209f75d816809ad90103c1ab24530f4662711df4c3",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50001,
+    "success": true,
+    "frames": 119
+  },
+  {
+    "file": "replays/relative_noise32-71-position-50000.json",
+    "sha256": "119f09832e49d0edfd53adf35faeaec63ca1e0aead09635aea57db156e08b9c9",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-sensor_3mm-50001.json",
+    "sha256": "cb2a3d8463d1b1fd143121f3f33cdbae81c1b1d0d876f2c454b8a8bdd3323c63",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50001,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/relative_noise32-71-sensor_3mm-50000.json",
+    "sha256": "7c3317fa37f7334e7a443bbcfbab0479d51c8db2360baf5755eaf0a8871900ee",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-delay_50ms-50000.json",
+    "sha256": "3aca18e50611ee9415d03ee26ad0636021d287d1c7d0f0cf65da6c092657a290",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 80
+  },
+  {
+    "file": "replays/relative_noise32-71-delay_50ms-50001.json",
+    "sha256": "0bb8ec95fcdabcd7e54c6f29fa78165d793345c1ecef8a6eacd541f74c04af76",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-dynamics-50001.json",
+    "sha256": "4ac1435d4b36a9c1d8d1b6592d697a13bbd59c1801d6aec9385f2e7babb57bdf",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50001,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/relative_noise32-71-dynamics-50000.json",
+    "sha256": "57dcd5d805954f984b7e8635afc754dcb0dc8fe29ad4a4dc1913cc0d685e3fe2",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-71-combined-50004.json",
+    "sha256": "0f3f89aea98a1c8d61ff19255204a62711c97e6d707d93ed42a6313fb7bd1ca6",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50004,
+    "success": true,
+    "frames": 77
+  },
+  {
+    "file": "replays/relative_noise32-71-combined-50000.json",
+    "sha256": "afc016d8270097eb63b6b3e40736b26e6440168bc3d38efdadde4298e6b901bd",
+    "model": "relative_noise32",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-71-id-50000.json",
+    "sha256": "aabdb2370dc12e9fdf5ee48dc2a458809082a9b1b45305acd8193cd45117d58c",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-71-position-50000.json",
+    "sha256": "cbac408fdd0180212b38310e3983cd9d4b97989cf538c1f53b142f476e7aed3d",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 76
+  },
+  {
+    "file": "replays/raw256-71-position-50020.json",
+    "sha256": "39023ef39fd9d31b500caa599c2fb3779bac6d1d94027e931084f71a7991e809",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "position",
+    "seed": 50020,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-71-sensor_3mm-50000.json",
+    "sha256": "d7049a5f18bdfd0101d2a065c7b9a957fcb85640bdd5c4339c054103f2979fe2",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 73
+  },
+  {
+    "file": "replays/raw256-71-delay_50ms-50001.json",
+    "sha256": "77885f8ed251b4004af1d3a36a44b38c763ed5803ccddf98ee86692747a0c77b",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": true,
+    "frames": 91
+  },
+  {
+    "file": "replays/raw256-71-delay_50ms-50000.json",
+    "sha256": "2e0cbbbb366ed487ab0c5d47b872f76070417136bf32a93b0e0ff4e2974834e4",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-71-dynamics-50000.json",
+    "sha256": "2f77eaa0c30662f0ab902384c23e520a2890ac6cfc57ab4ccea40d5c3d5796a8",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-71-combined-50003.json",
+    "sha256": "9c7007f721eb8a7089b7a8e0ff334e2fbe0d44461c91b2ede32253d6eb55dbcf",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50003,
+    "success": true,
+    "frames": 101
+  },
+  {
+    "file": "replays/raw256-71-combined-50000.json",
+    "sha256": "b0a551fb4b0fe0ff3857a2c06b865fce0cc6d8196c9f1ace0583e37ac2fb02b2",
+    "model": "raw256",
+    "training_seed": 71,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-id-50000.json",
+    "sha256": "1ebc4488ef96d952da23f80e1658db0cd6ac099384a2a4de36fd1ecb89c07b4d",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 59
+  },
+  {
+    "file": "replays/raw32-97-id-50055.json",
+    "sha256": "a10db14c365e386225eca79cd620856d228be2af228bd44b1b68603f6c82e632",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50055,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-position-50002.json",
+    "sha256": "6ae5ced76125449b13228c18eceda8c4f0fbb52843687265bb8d04a166f022c4",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 60
+  },
+  {
+    "file": "replays/raw32-97-position-50000.json",
+    "sha256": "8a1f90b4631e2c76662521d7993301897426a058ba95a529a8150d845e62cd9c",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-sensor_3mm-50000.json",
+    "sha256": "a0156ff88da7cc11d58914b63842f1bc3f647b47097451d836031c26d62e72b2",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 78
+  },
+  {
+    "file": "replays/raw32-97-sensor_3mm-50003.json",
+    "sha256": "f9b2f3b84d0d1f427575611392f9f9cbc001bfb5695a086883efcf112fd2041e",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50003,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-delay_50ms-50000.json",
+    "sha256": "f7a6306498cff015d96a74563a0801e92c855e4cd8f64d6938b029128b69714a",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 72
+  },
+  {
+    "file": "replays/raw32-97-delay_50ms-50006.json",
+    "sha256": "e2e479746e98d6fee9d593c1177544a295fc6a1e0e37bff29e1705df653e9f77",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50006,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-dynamics-50000.json",
+    "sha256": "350342827f1f79c157592a4190e37ac8bd133c0918253c7b715f7c7ac5110942",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 59
+  },
+  {
+    "file": "replays/raw32-97-dynamics-50010.json",
+    "sha256": "fab5baaee76aaab6592412bbd63080f22556f8959267234304744d2f45c9fb6e",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50010,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw32-97-combined-50002.json",
+    "sha256": "a76489995bfe207e7527d0fc10741fa663c903b6041ec680032f7c031859869e",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 101
+  },
+  {
+    "file": "replays/raw32-97-combined-50000.json",
+    "sha256": "d9066114ceb58b4791d5cdbae83e6dbc2a58631adbfb87fe7062fad20ada1ab4",
+    "model": "raw32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-id-50001.json",
+    "sha256": "64efac7423bace3a4bfbb4244b7f60d8cdc68bdcd7efe439ea66da517122e2b9",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50001,
+    "success": true,
+    "frames": 93
+  },
+  {
+    "file": "replays/relative32-97-id-50000.json",
+    "sha256": "1e8b759a730ebbb4e437e0f351211d0bff6d66d8ca48b1edaebaf89950e715b6",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-position-50002.json",
+    "sha256": "d58f65ea26e6ace92e0b14940c30a675639b0a43fe1f3f4d38bb97227d678441",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/relative32-97-position-50000.json",
+    "sha256": "667a698e70926f2ddd6e45e39345b31d4c6690ade0bf15b5ea5351470dbc4946",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-sensor_3mm-50000.json",
+    "sha256": "e8d76da1a3a2e4d70b38fede8b0af58102d70c652c7e5ea60d0a8b2168cd0898",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/relative32-97-sensor_3mm-50052.json",
+    "sha256": "c93fab469f67d43e7d9896119df98d18fb12e657b801b44912321d02e2361934",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50052,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-delay_50ms-50000.json",
+    "sha256": "477e7ea35e1556946a2039a04e0fcb378730a984f82a65e64958cd83903f0860",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 75
+  },
+  {
+    "file": "replays/relative32-97-delay_50ms-50009.json",
+    "sha256": "b97a0245d8ecd9b76461804c4b9805aff1efe8b2c32dca36befa8758df268965",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50009,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-dynamics-50001.json",
+    "sha256": "74e785ab6fc832a319123a1839d265994661fd61051f24ffdaee0cd856c251b5",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50001,
+    "success": true,
+    "frames": 95
+  },
+  {
+    "file": "replays/relative32-97-dynamics-50000.json",
+    "sha256": "b09957ffb37bb6d1875afb4432173316977b197e76beb986cd503b6b876ccbd7",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative32-97-combined-50002.json",
+    "sha256": "890f7b67b30182d7d273db5edbd266da00f888a5aaad2e7d0a51de031aaff333",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 89
+  },
+  {
+    "file": "replays/relative32-97-combined-50000.json",
+    "sha256": "560d92b7766ac65e28c3ccc1550836740ba1df1680f8bb4628d19dff2e4e1e73",
+    "model": "relative32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-id-50001.json",
+    "sha256": "5b50b8ea07b4a838741519fc572410233694cb51da1459bb3faefce48bf95894",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50001,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/noise32-97-id-50000.json",
+    "sha256": "f0b9b2a4f52556ad1ca08703225b55bc700243f79d314cc9d8d7eeb70d851d50",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-position-50002.json",
+    "sha256": "be21b3b2014bc23aea5b883704b149066183e14bfeab7c996d1742f7a6eea705",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 58
+  },
+  {
+    "file": "replays/noise32-97-position-50000.json",
+    "sha256": "95865fd778c8932df02a7c7cffa0daf40c5b3d009f7916c0be2d63b34e4c4bfe",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-sensor_3mm-50000.json",
+    "sha256": "5dc28b810875ae07d8edcf44fc3b1267f4d5ad374ca7b7cbde3545bbdc6b4811",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 52
+  },
+  {
+    "file": "replays/noise32-97-sensor_3mm-50014.json",
+    "sha256": "527c0d6e09bd41abf61a746bf0359a308bc3a2e8e8d29cb8db986e3668d2a03e",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50014,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-delay_50ms-50001.json",
+    "sha256": "e62eb44c2585901d8dd0e58cc481063428cf7614e8add857cee0f8c34ebdec10",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50001,
+    "success": true,
+    "frames": 88
+  },
+  {
+    "file": "replays/noise32-97-delay_50ms-50000.json",
+    "sha256": "5c36f0886d90d4f5ae75dca0acb28b14531f885215c1cd54a9956044ead6a964",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-dynamics-50001.json",
+    "sha256": "0673ec836358517525fe99d8cb0114e17f393c914c7f4e1dc6d9daac9c07ef81",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50001,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/noise32-97-dynamics-50000.json",
+    "sha256": "2c4a0063ea1afcc8e9bab1ad22d68b9fca71c46c50d422f098a1d122fbb0ae20",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/noise32-97-combined-50002.json",
+    "sha256": "adbda3d413e55bdfaf85264f7025f289a2ec11b7440e4c7d128c896e9097cfcc",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 70
+  },
+  {
+    "file": "replays/noise32-97-combined-50000.json",
+    "sha256": "48c7cc5aba087950c6ce783ec3f948657408aa6369772c2d1acfd95a60b69ea1",
+    "model": "noise32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-id-50000.json",
+    "sha256": "0653039254bd7910f8eb5f224b712806d5aa3ef9b9cc3e06e1b5f86d83b70cae",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/relative_noise32-97-id-50012.json",
+    "sha256": "220c43925f14de355b0f0f791f23a918c8d931233b0694e7373ac0317a24279b",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-position-50002.json",
+    "sha256": "a6fddbee9f3b78f1ebd76266a5b98ced1e171e199f7332fa21b662b279cc8490",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50002,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/relative_noise32-97-position-50000.json",
+    "sha256": "2e99f2ced9f3dfdd30f93b043bce2a7ead81fbc62bd9a22d6aeaed8ff6855584",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-sensor_3mm-50000.json",
+    "sha256": "555c55fd6bbc6b3107c6bf92c1a18f01315fab6e0640f6f5b7c91f6465a9f745",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 63
+  },
+  {
+    "file": "replays/relative_noise32-97-sensor_3mm-50012.json",
+    "sha256": "d27fc2ebe4177626e100d35acecd2ef7b853aef90e804def1fc1a99870adcd84",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-delay_50ms-50000.json",
+    "sha256": "5c4d4cabba65442cebca810d0a3707e6f4cbf7d82ab971f552251f0dc8d1a804",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": true,
+    "frames": 79
+  },
+  {
+    "file": "replays/relative_noise32-97-delay_50ms-50012.json",
+    "sha256": "01f675d853851a8bf4ad0aecb5e80a8df2ca81166d3be2ba4887f1e8dcfb9698",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-dynamics-50000.json",
+    "sha256": "b5c1c4cba2660f92c6df069974ac912be6ffda60272bde0d3ba125e6dfb7bf55",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 62
+  },
+  {
+    "file": "replays/relative_noise32-97-dynamics-50012.json",
+    "sha256": "eab7fbbe2dbe028c139d0cd2b6b8c4aef08321c9c277fe0b81c3d18b83393dfc",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50012,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/relative_noise32-97-combined-50002.json",
+    "sha256": "fcc6aed4f082954d8a6b3bba777b4ab4460da30b3eeb9d6b6fb795a0b65d2dbb",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50002,
+    "success": true,
+    "frames": 87
+  },
+  {
+    "file": "replays/relative_noise32-97-combined-50000.json",
+    "sha256": "26cb64aeb5b23010e3ed6fd923d80ce99900698f1e3f6411a65e8b8845621442",
+    "model": "relative_noise32",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-97-id-50000.json",
+    "sha256": "bd78ebcf4cdfa51ac6354bab5fdd2c791a09da2392facd2abc50e438315b7d8d",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "id",
+    "seed": 50000,
+    "success": true,
+    "frames": 55
+  },
+  {
+    "file": "replays/raw256-97-position-50000.json",
+    "sha256": "c260463876fcda381f9d333da79d4fa6805b47ad1af0e1638a79db4dfc66f6e7",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50000,
+    "success": true,
+    "frames": 64
+  },
+  {
+    "file": "replays/raw256-97-position-50001.json",
+    "sha256": "d3fdcd55cf227b3ed9d67b3023168161879d9181863c5ed07dc5dd8da74ce626",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "position",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-97-sensor_3mm-50000.json",
+    "sha256": "bdef445610cc18f8240ce7ac9fe3fb875d97723a321503645e3c2d9d66521e84",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-97-sensor_3mm-50094.json",
+    "sha256": "91333e4822c34190e5f3554b744fe2e3cf2b382a48f1641be230dc8055cd0884",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "sensor_3mm",
+    "seed": 50094,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-97-delay_50ms-50002.json",
+    "sha256": "8d99aa23f7939dae9aea42cb71310a3909d6aa60740848bbb86d3e01590f3b97",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50002,
+    "success": true,
+    "frames": 65
+  },
+  {
+    "file": "replays/raw256-97-delay_50ms-50000.json",
+    "sha256": "0bdc5a2b1fdc01bb85d8b48deaf3dd068fb78e2f27535c99de377f4012eb34a6",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "delay_50ms",
+    "seed": 50000,
+    "success": false,
+    "frames": 221
+  },
+  {
+    "file": "replays/raw256-97-dynamics-50000.json",
+    "sha256": "b202ea28c3ba3c3a1f7d1d6e457e6d4d6ffa3b04592dae9046375cedf18e6c37",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "dynamics",
+    "seed": 50000,
+    "success": true,
+    "frames": 56
+  },
+  {
+    "file": "replays/raw256-97-combined-50000.json",
+    "sha256": "50c58cbebba273d5c7ed1ac046bf3636a933441081737587b95871f3c4b1a323",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50000,
+    "success": true,
+    "frames": 80
+  },
+  {
+    "file": "replays/raw256-97-combined-50001.json",
+    "sha256": "b2774fb34093f4c986c647d7085f8d89fd216e54f3ed20747a1382d261cfe51a",
+    "model": "raw256",
+    "training_seed": 97,
+    "condition": "combined",
+    "seed": 50001,
+    "success": false,
+    "frames": 221
+  }
+]

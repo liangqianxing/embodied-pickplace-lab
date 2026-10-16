@@ -1,0 +1,20 @@
+[
+  {
+    "path": "paired-delay_50ms.json",
+    "selection": "first identity failure repaired by EMA",
+    "training_seed": 17,
+    "scenario_seed": 80002
+  },
+  {
+    "path": "paired-clean.json",
+    "selection": "first clean success regressed by EMA",
+    "training_seed": 97,
+    "scenario_seed": 80015
+  },
+  {
+    "path": "paired-delay_100ms.json",
+    "selection": "first 100ms success regressed by EMA",
+    "training_seed": 17,
+    "scenario_seed": 80007
+  }
+]

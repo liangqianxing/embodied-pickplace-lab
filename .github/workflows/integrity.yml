@@ -1,0 +1,22 @@
+name: Artifact integrity
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published file inventory
+        run: python3 scripts/verify_manifest.py
+      - name: Explain verification scope
+        run: |
+          echo "File presence and SHA-256 consistency only."
+          echo "This workflow does not install simulation dependencies or rerun experiments."
